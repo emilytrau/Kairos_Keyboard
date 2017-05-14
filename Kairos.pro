@@ -1,4 +1,4 @@
-update=5/14/2017 6:27:24 PM
+update=5/14/2017 7:03:58 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrids
+LibName31=WS2812B.pretty/Schematic-Symbol/ws2812b
