@@ -236,9 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	4325 4250 4325 4175
 Wire Wire Line
-	3875 4750 3875 4825
-Wire Wire Line
-	3875 4825 4475 4825
+	3825 4825 4475 4825
 Wire Wire Line
 	4325 4825 4325 4750
 Wire Wire Line
@@ -257,10 +255,8 @@ Connection ~ 6350 3700
 Wire Wire Line
 	3775 4275 3625 4275
 Wire Wire Line
-	3625 3700 3625 4850
+	3625 3700 3625 4725
 Connection ~ 3775 3700
-Wire Wire Line
-	3625 4850 3775 4850
 Connection ~ 3625 4275
 Wire Wire Line
 	4225 4275 4600 4275
@@ -285,4 +281,12 @@ Wire Wire Line
 	4150 3150 3775 3150
 Wire Wire Line
 	3775 3150 3775 3125
+Wire Wire Line
+	3625 4725 3875 4725
+Wire Wire Line
+	3875 4725 3875 4750
+Wire Wire Line
+	3825 4825 3825 4850
+Wire Wire Line
+	3825 4850 3775 4850
 $EndSCHEMATC
