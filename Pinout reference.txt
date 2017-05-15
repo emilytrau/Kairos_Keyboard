@@ -1,19 +1,21 @@
 Pad order 1 Left (long), 2 Right (short)
+LED Order Regular = LED, LEDGND
+LED Order Reversed = LEDGND, LED
 
 Left Shift
 
 2.25U:
-	2.25U C1 R1
+	2.25U C1 R1 Reversed
 	
 2U:
-	2U C1 R1
+	2U C1 R1 Regular
 	
 1.25U+1U:
-	1.25U  R1 C1
-	1U C2 R1
+	1.25U  R1 C1 Reversed
+	1U C2 R1 Regular
 	
 1U+1U:
-	1U R1 C1
-	1U R1 C2
+	1U R1 C1 Regular
+	1U R1 C2 Regular
 	
 TODO: LED ORDER

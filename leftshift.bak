@@ -223,11 +223,11 @@ Wire Wire Line
 	6475 4600 6475 4625
 Connection ~ 6475 4600
 Wire Wire Line
-	3875 3025 5925 3025
+	4150 3025 5925 3025
 Wire Wire Line
-	5925 2075 5925 3600
+	5925 3600 5925 2075
 Wire Wire Line
-	5925 3600 3875 3600
+	3875 3600 5925 3600
 Connection ~ 5925 3025
 Wire Wire Line
 	3875 4175 3875 4250
@@ -248,7 +248,7 @@ Connection ~ 4325 4250
 Connection ~ 4475 3600
 Connection ~ 4475 4250
 Wire Wire Line
-	3775 3125 6350 3125
+	4100 3125 6350 3125
 Wire Wire Line
 	6350 3125 6350 4300
 Wire Wire Line
@@ -275,4 +275,14 @@ Wire Wire Line
 Wire Wire Line
 	6600 4075 6600 4300
 Connection ~ 4600 4850
+Wire Wire Line
+	3875 3025 4100 3025
+Wire Wire Line
+	4100 3025 4100 3125
+Wire Wire Line
+	4150 3025 4150 3150
+Wire Wire Line
+	4150 3150 3775 3150
+Wire Wire Line
+	3775 3150 3775 3125
 $EndSCHEMATC
