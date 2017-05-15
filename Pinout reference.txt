@@ -15,3 +15,5 @@ Left Shift
 1U+1U:
 	1U R1 C1
 	1U R1 C2
+	
+TODO: LED ORDER
