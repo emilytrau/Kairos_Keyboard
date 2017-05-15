@@ -2002,10 +2002,15 @@ F0 "rightshift" 60
 F1 "rightshift.sch" 60
 $EndSheet
 $Sheet
-S 1075 3050 925  600 
+S 511  3110 925  600 
 U 59210B32
 F0 "leftshift" 60
 F1 "leftshift.sch" 60
+F2 "leftshiftcol1" I R 1436 3185 60 
+F3 "leftshiftcol2" I R 1436 3280 60 
+F4 "leftshiftrow1" I R 1436 3380 60 
+F5 "leftshift5V" I R 1436 3480 60 
+F6 "leftshiftLEDGND" I R 1436 3580 60 
 $EndSheet
 $Sheet
 S 8425 4450 1425 675 

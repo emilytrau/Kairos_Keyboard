@@ -125,36 +125,154 @@ F 3 "" H 5550 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D DLS2
-U 1 1 591A571F
-P 6025 4400
-F 0 "DLS2" H 6025 4500 50  0000 C CNN
-F 1 "1N4148WS" H 6025 4300 50  0000 C CNN
-F 2 "" H 6025 4400 50  0001 C CNN
-F 3 "" H 6025 4400 50  0001 C CNN
-	1    6025 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R RLS1
 U 1 1 591A5D8F
-P 5550 3500
-F 0 "RLS1" V 5630 3500 50  0000 C CNN
-F 1 "2.2k" V 5550 3500 50  0000 C CNN
-F 2 "" V 5480 3500 50  0001 C CNN
-F 3 "" H 5550 3500 50  0001 C CNN
-	1    5550 3500
+P 6350 4450
+F 0 "RLS1" V 6430 4450 50  0000 C CNN
+F 1 "2.2k" V 6350 4450 50  0000 C CNN
+F 2 "" V 6280 4450 50  0001 C CNN
+F 3 "" H 6350 4450 50  0001 C CNN
+	1    6350 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L R RLS2
 U 1 1 591A5E9C
-P 6025 3500
-F 0 "RLS2" V 6105 3500 50  0000 C CNN
-F 1 "2.2k" V 6025 3500 50  0000 C CNN
-F 2 "" V 5955 3500 50  0001 C CNN
-F 3 "" H 6025 3500 50  0001 C CNN
-	1    6025 3500
+P 6600 4450
+F 0 "RLS2" V 6680 4450 50  0000 C CNN
+F 1 "2.2k" V 6600 4450 50  0000 C CNN
+F 2 "" V 6530 4450 50  0001 C CNN
+F 3 "" H 6600 4450 50  0001 C CNN
+	1    6600 4450
 	1    0    0    -1  
 $EndComp
+Text HLabel 5575 2075 1    60   Input ~ 0
+leftshiftcol1
+Text HLabel 5750 2075 1    60   Input ~ 0
+leftshiftcol2
+Text HLabel 5550 4625 3    60   Input ~ 0
+leftshiftrow1
+Text HLabel 5925 2075 1    60   Input ~ 0
+leftshift5V
+Text HLabel 6475 4625 3    60   Input ~ 0
+leftshiftLEDGND
+Wire Wire Line
+	5550 4550 5550 4625
+Wire Wire Line
+	3925 2975 5575 2975
+Wire Wire Line
+	5575 2975 5575 2075
+Wire Wire Line
+	3925 3550 4900 3550
+Wire Wire Line
+	4900 2975 4900 5100
+Connection ~ 4900 2975
+Wire Wire Line
+	3725 3175 5225 3175
+Wire Wire Line
+	5225 3175 5225 4525
+Wire Wire Line
+	5225 4250 5550 4250
+Wire Wire Line
+	3725 3750 5225 3750
+Connection ~ 5225 3750
+Wire Wire Line
+	3925 4700 3925 4525
+Wire Wire Line
+	3925 4525 5225 4525
+Connection ~ 5225 4250
+Wire Wire Line
+	4900 5100 3725 5100
+Wire Wire Line
+	3725 5100 3725 4900
+Connection ~ 4900 3550
+Wire Wire Line
+	5750 2075 5750 3925
+Wire Wire Line
+	5750 3925 4700 3925
+Wire Wire Line
+	4700 3925 4700 4700
+Wire Wire Line
+	4700 4700 4375 4700
+Wire Wire Line
+	4175 4900 4075 4900
+Wire Wire Line
+	4075 4900 4075 4525
+Connection ~ 4075 4525
+Wire Wire Line
+	4175 4325 4175 4450
+Wire Wire Line
+	4175 4450 4700 4450
+Connection ~ 4700 4450
+Wire Wire Line
+	4375 4125 4375 3825
+Wire Wire Line
+	3925 3825 5225 3825
+Connection ~ 5225 3825
+Wire Wire Line
+	3925 4125 3925 3825
+Connection ~ 4375 3825
+Wire Wire Line
+	4900 4400 3725 4400
+Wire Wire Line
+	3725 4400 3725 4325
+Connection ~ 4900 4400
+Wire Wire Line
+	6350 4600 6600 4600
+Wire Wire Line
+	6475 4600 6475 4625
+Connection ~ 6475 4600
+Wire Wire Line
+	3875 3025 5925 3025
+Wire Wire Line
+	5925 2075 5925 3600
+Wire Wire Line
+	5925 3600 3875 3600
+Connection ~ 5925 3025
+Wire Wire Line
+	3875 4175 3875 4250
+Wire Wire Line
+	3875 4250 4475 4250
+Wire Wire Line
+	4325 4250 4325 4175
+Wire Wire Line
+	3875 4750 3875 4825
+Wire Wire Line
+	3875 4825 4475 4825
+Wire Wire Line
+	4325 4825 4325 4750
+Wire Wire Line
+	4475 4825 4475 3600
+Connection ~ 4325 4825
+Connection ~ 4325 4250
+Connection ~ 4475 3600
+Connection ~ 4475 4250
+Wire Wire Line
+	3775 3125 6350 3125
+Wire Wire Line
+	6350 3125 6350 4300
+Wire Wire Line
+	3625 3700 6350 3700
+Connection ~ 6350 3700
+Wire Wire Line
+	3775 4275 3625 4275
+Wire Wire Line
+	3625 3700 3625 4850
+Connection ~ 3775 3700
+Wire Wire Line
+	3625 4850 3775 4850
+Connection ~ 3625 4275
+Wire Wire Line
+	4225 4275 4600 4275
+Wire Wire Line
+	4600 4275 4600 4850
+Wire Wire Line
+	4225 4850 5050 4850
+Wire Wire Line
+	5050 4850 5050 4075
+Wire Wire Line
+	5050 4075 6600 4075
+Wire Wire Line
+	6600 4075 6600 4300
+Connection ~ 4600 4850
 $EndSCHEMATC
