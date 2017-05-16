@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -2195,4 +2195,16 @@ Wire Wire Line
 	7850 3650 7850 4150
 Wire Wire Line
 	7800 4200 7800 3700
+$Sheet
+S 5025 5400 775  675 
+U 591D8AF0
+F0 "spacebar" 60
+F1 "spacebar.sch" 60
+$EndSheet
+$Sheet
+S 1900 5325 1275 675 
+U 591D8C4D
+F0 "leftmods" 60
+F1 "leftmods.sch" 60
+$EndSheet
 $EndSCHEMATC
