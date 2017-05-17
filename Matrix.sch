@@ -29,13 +29,11 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MX_Alps_Hybrids
-LIBS:ws2812b
-LIBS:Kairos-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -2200,6 +2198,10 @@ S 5025 5400 775  675
 U 591D8AF0
 F0 "spacebar" 60
 F1 "spacebar.sch" 60
+F2 "spacebarrow" I R 5800 5475 60 
+F3 "spacebarcol" I R 5800 5575 60 
+F4 "spacebar5V" I R 5800 5675 60 
+F5 "spacebarLEDGND" I R 5800 5775 60 
 $EndSheet
 $Sheet
 S 1900 5325 1275 675 
