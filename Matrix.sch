@@ -2209,5 +2209,11 @@ S 1900 5325 1275 675
 U 591D8C4D
 F0 "leftmods" 60
 F1 "leftmods.sch" 60
+F2 "leftmodsrow" I R 3175 5400 60 
+F3 "leftmodscol1" I R 3175 5500 60 
+F4 "leftmodscol2" I R 3175 5600 60 
+F5 "leftmodscol3" I R 3175 5700 60 
+F6 "leftmods5V" I R 3175 5800 60 
+F7 "leftmodsLEDGND" I R 3175 5900 60 
 $EndSheet
 $EndSCHEMATC

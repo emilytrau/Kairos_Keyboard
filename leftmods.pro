@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=18/05/2017 12:32:15 PM
 version=1
 last_client=kicad
 [general]
@@ -60,3 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrids
