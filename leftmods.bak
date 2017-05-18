@@ -29,12 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MX_Alps_Hybrids
-LIBS:Matrix-cache
+LIBS:leftmods-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -290,10 +290,10 @@ Wire Wire Line
 	4550 5975 5650 5975
 Connection ~ 5100 5975
 Text HLabel 5700 5400 2    60   Input ~ 0
-leftmodsGND
+leftmodsLEDGND
 Connection ~ 5675 5400
 Text HLabel 5100 6000 3    60   Input ~ 0
-leftmodsLED5V
+leftmods5V
 Wire Wire Line
 	5100 6000 5100 5975
 $EndSCHEMATC

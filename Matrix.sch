@@ -1494,6 +1494,12 @@ S 9275 3675 1100 725
 U 5920EC51
 F0 "rightshift" 60
 F1 "rightshift.sch" 60
+F2 "rightshiftcol1" I L 9275 3850 60 
+F3 "rightshiftcol2" I L 9275 3950 60 
+F4 "rightshiftcol3" I L 9275 4050 60 
+F5 "rightshiftrow" I L 9275 3750 60 
+F6 "rightshift5V" I L 9275 4150 60 
+F7 "rightshiftLEDGND" I L 9275 4250 60 
 $EndSheet
 $Sheet
 S 711  3785 925  600 
