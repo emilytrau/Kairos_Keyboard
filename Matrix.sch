@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MX_Alps_Hybrids
-LIBS:Matrix-cache
+LIBS:ws2812b
+LIBS:Kairos-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -2222,4 +2223,52 @@ F5 "leftmodscol3" I R 3175 5700 60
 F6 "leftmods5V" I R 3175 5800 60 
 F7 "leftmodsLEDGND" I R 3175 5900 60 
 $EndSheet
+Wire Wire Line
+	10825 2875 10825 875 
+Wire Wire Line
+	10825 875  10200 875 
+Wire Wire Line
+	10200 875  10200 2875
+Wire Wire Line
+	9575 2875 9575 875 
+Wire Wire Line
+	9575 875  8950 875 
+Wire Wire Line
+	8950 875  8950 2875
+Wire Wire Line
+	8325 3500 8325 875 
+Wire Wire Line
+	8325 875  7700 875 
+Wire Wire Line
+	7700 875  7700 3500
+Wire Wire Line
+	7075 3500 7075 875 
+Wire Wire Line
+	7075 875  6450 875 
+Wire Wire Line
+	6450 875  6450 3500
+Wire Wire Line
+	5825 3500 5825 875 
+Wire Wire Line
+	5825 875  5200 875 
+Wire Wire Line
+	5200 875  5200 3500
+Wire Wire Line
+	4575 3500 4575 875 
+Wire Wire Line
+	4575 875  3950 875 
+Wire Wire Line
+	3950 875  3950 3500
+Wire Wire Line
+	3325 3500 3325 875 
+Wire Wire Line
+	3325 875  2700 875 
+Wire Wire Line
+	2700 875  2700 2875
+Wire Wire Line
+	2075 1625 2075 875 
+Wire Wire Line
+	2075 875  1450 875 
+Wire Wire Line
+	1450 875  1450 2700
 $EndSCHEMATC
