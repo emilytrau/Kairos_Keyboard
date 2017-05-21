@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MX_Alps_Hybrids
-LIBS:Matrix-cache
+LIBS:ws2812b
+LIBS:Kairos-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -2222,4 +2223,139 @@ F5 "leftmodscol3" I R 3175 5700 60
 F6 "leftmods5V" I R 3175 5800 60 
 F7 "leftmodsLEDGND" I R 3175 5900 60 
 $EndSheet
+Wire Wire Line
+	10825 2875 10825 875 
+Wire Wire Line
+	10825 875  10200 875 
+Wire Wire Line
+	10200 875  10200 2875
+Wire Wire Line
+	9575 2875 9575 875 
+Wire Wire Line
+	9575 875  8950 875 
+Wire Wire Line
+	8950 875  8950 2875
+Wire Wire Line
+	8325 3500 8325 875 
+Wire Wire Line
+	8325 875  7700 875 
+Wire Wire Line
+	7700 875  7700 3500
+Wire Wire Line
+	7075 3500 7075 875 
+Wire Wire Line
+	7075 875  6450 875 
+Wire Wire Line
+	6450 875  6450 3500
+Wire Wire Line
+	5825 3500 5825 875 
+Wire Wire Line
+	5825 875  5200 875 
+Wire Wire Line
+	5200 875  5200 3500
+Wire Wire Line
+	4575 3500 4575 875 
+Wire Wire Line
+	4575 875  3950 875 
+Wire Wire Line
+	3950 875  3950 3500
+Wire Wire Line
+	3325 3500 3325 875 
+Wire Wire Line
+	3325 875  2700 875 
+Wire Wire Line
+	2700 875  2700 2875
+Wire Wire Line
+	2075 1625 2075 875 
+Wire Wire Line
+	2075 875  1450 875 
+Wire Wire Line
+	1450 875  1450 2700
+Wire Wire Line
+	2175 1825 2175 1875
+Wire Wire Line
+	2175 1875 9675 1875
+Wire Wire Line
+	3425 1875 3425 1825
+Wire Wire Line
+	4675 1875 4675 1825
+Connection ~ 3425 1875
+Wire Wire Line
+	5925 1875 5925 1825
+Connection ~ 4675 1875
+Wire Wire Line
+	7175 1875 7175 1825
+Connection ~ 5925 1875
+Wire Wire Line
+	8425 1875 8425 1825
+Connection ~ 7175 1875
+Wire Wire Line
+	9675 1875 9675 1825
+Connection ~ 8425 1875
+Wire Wire Line
+	1550 1825 1550 1925
+Wire Wire Line
+	1550 1925 10300 1925
+Wire Wire Line
+	2800 1925 2800 1825
+Wire Wire Line
+	4050 1925 4050 1825
+Connection ~ 2800 1925
+Wire Wire Line
+	5300 1925 5300 1825
+Connection ~ 4050 1925
+Wire Wire Line
+	6550 1925 6550 1825
+Connection ~ 5300 1925
+Wire Wire Line
+	7800 1925 7800 1825
+Connection ~ 6550 1925
+Wire Wire Line
+	9050 1925 9050 1825
+Connection ~ 7800 1925
+Wire Wire Line
+	10300 1925 10300 1825
+Connection ~ 9050 1925
+Wire Wire Line
+	2175 2450 2175 2500
+Wire Wire Line
+	2175 2500 9675 2500
+Wire Wire Line
+	3425 2500 3425 2450
+Wire Wire Line
+	4675 2500 4675 2450
+Connection ~ 3425 2500
+Wire Wire Line
+	5925 2500 5925 2450
+Connection ~ 4675 2500
+Wire Wire Line
+	7175 2500 7175 2450
+Connection ~ 5925 2500
+Wire Wire Line
+	8425 2500 8425 2450
+Connection ~ 7175 2500
+Wire Wire Line
+	9675 2500 9675 2450
+Connection ~ 8425 2500
+Wire Wire Line
+	2800 2450 2800 2550
+Wire Wire Line
+	2800 2550 10300 2550
+Wire Wire Line
+	4050 2550 4050 2450
+Wire Wire Line
+	5300 2550 5300 2450
+Connection ~ 4050 2550
+Wire Wire Line
+	6550 2550 6550 2450
+Connection ~ 5300 2550
+Wire Wire Line
+	7800 2550 7800 2450
+Connection ~ 6550 2550
+Wire Wire Line
+	9050 2550 9050 2450
+Connection ~ 7800 2550
+Wire Wire Line
+	10300 2550 10300 2450
+Connection ~ 9050 2550
 $EndSCHEMATC
