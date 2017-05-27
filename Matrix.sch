@@ -1922,8 +1922,6 @@ F0 "spacebar" 60
 F1 "spacebar.sch" 60
 F2 "spacebarrow" I R 5800 5475 60 
 F3 "spacebarcol" I R 5800 5575 60 
-F4 "spacebar5V" I R 5800 5675 60 
-F5 "spacebarLEDGND" I R 5800 5775 60 
 $EndSheet
 $Sheet
 S 1900 5325 1275 675 
@@ -2412,7 +2410,6 @@ Connection ~ 7175 4200
 Connection ~ 5925 4250
 Wire Wire Line
 	2800 4300 7800 4300
-Connection ~ 4050 4200
 Connection ~ 2800 4200
 Connection ~ 5300 4200
 Connection ~ 4050 4300
@@ -2624,4 +2621,5 @@ F 3 "" H 1975 675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 2000 675 
+Connection ~ 4050 4200
 $EndSCHEMATC

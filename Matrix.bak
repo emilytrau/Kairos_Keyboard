@@ -1922,8 +1922,6 @@ F0 "spacebar" 60
 F1 "spacebar.sch" 60
 F2 "spacebarrow" I R 5800 5475 60 
 F3 "spacebarcol" I R 5800 5575 60 
-F4 "spacebar5V" I R 5800 5675 60 
-F5 "spacebarLEDGND" I R 5800 5775 60 
 $EndSheet
 $Sheet
 S 1900 5325 1275 675 
@@ -2412,7 +2410,6 @@ Connection ~ 7175 4200
 Connection ~ 5925 4250
 Wire Wire Line
 	2800 4300 7800 4300
-Connection ~ 4050 4200
 Connection ~ 2800 4200
 Connection ~ 5300 4200
 Connection ~ 4050 4300
@@ -2486,7 +2483,7 @@ Connection ~ 1175 1775
 Wire Wire Line
 	2000 1725 2000 675 
 Wire Wire Line
-	2000 675  10750 675 
+	1975 675  10750 675 
 Wire Wire Line
 	10750 675  10750 2975
 Wire Wire Line
@@ -2612,4 +2609,17 @@ Connection ~ 4875 3500
 Connection ~ 4250 3500
 Connection ~ 3625 3500
 Connection ~ 3000 3500
+$Comp
+L +5V #PWR?
+U 1 1 593478ED
+P 1975 675
+F 0 "#PWR?" H 1975 525 50  0001 C CNN
+F 1 "+5V" H 1975 815 50  0000 C CNN
+F 2 "" H 1975 675 50  0001 C CNN
+F 3 "" H 1975 675 50  0001 C CNN
+	1    1975 675 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2000 675 
+Connection ~ 4050 4200
 $EndSCHEMATC
