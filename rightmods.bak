@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -45,4 +45,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 7325 7500 0    60   ~ 0
+Right Mods\n
+Text Notes 8100 7650 0    60   ~ 0
+No Clue
+Text Notes 10550 7650 0    60   ~ 0
+1
 $EndSCHEMATC

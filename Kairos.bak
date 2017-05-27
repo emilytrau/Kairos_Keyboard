@@ -923,4 +923,8 @@ F 3 "" H 6200 6050 50  0001 C CNN
 	1    6200 6050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3850 1400 3850 1500
+Text GLabel 3850 1500 0    60   Input ~ 0
+LEDGND
 $EndSCHEMATC
