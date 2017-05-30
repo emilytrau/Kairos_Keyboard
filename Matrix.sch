@@ -29,13 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MX_Alps_Hybrids
-LIBS:ws2812b
-LIBS:Kairos-cache
+LIBS:Matrix-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -1507,11 +1506,11 @@ S 711  3785 925  600
 U 59210B32
 F0 "leftshift" 60
 F1 "leftshift.sch" 60
-F2 "leftshiftcol1" I R 1636 3860 60 
-F3 "leftshiftcol2" I R 1636 3955 60 
-F4 "leftshiftrow1" I R 1636 4055 60 
-F5 "leftshift5V" I R 1636 4155 60 
-F6 "leftshiftLEDGND" I R 1636 4255 60 
+F2 "leftshiftcol1" I R 1636 3850 60 
+F3 "leftshiftcol2" I R 1636 3950 60 
+F4 "leftshiftrow1" I R 1636 4050 60 
+F5 "leftshift5V" I R 1636 4150 60 
+F6 "leftshiftLEDGND" I R 1636 4250 60 
 $EndSheet
 $Sheet
 S 8625 5125 1425 675 
@@ -2274,7 +2273,7 @@ Wire Wire Line
 Wire Wire Line
 	2175 1825 2175 1875
 Wire Wire Line
-	2175 1875 9675 1875
+	1400 1875 9675 1875
 Wire Wire Line
 	3425 1875 3425 1825
 Wire Wire Line
@@ -2295,7 +2294,7 @@ Connection ~ 8425 1875
 Wire Wire Line
 	1550 1825 1550 1925
 Wire Wire Line
-	1550 1925 10300 1925
+	1400 1925 10300 1925
 Wire Wire Line
 	2800 1925 2800 1825
 Wire Wire Line
@@ -2319,7 +2318,7 @@ Connection ~ 9050 1925
 Wire Wire Line
 	2175 2450 2175 2500
 Wire Wire Line
-	2175 2500 9675 2500
+	1400 2500 9675 2500
 Wire Wire Line
 	3425 2500 3425 2450
 Wire Wire Line
@@ -2340,7 +2339,7 @@ Connection ~ 8425 2500
 Wire Wire Line
 	2800 2450 2800 2550
 Wire Wire Line
-	2800 2550 10300 2550
+	1400 2550 10300 2550
 Wire Wire Line
 	4050 2550 4050 2450
 Wire Wire Line
@@ -2361,7 +2360,7 @@ Connection ~ 9050 2550
 Wire Wire Line
 	2175 3075 2175 3125
 Wire Wire Line
-	2175 3125 9675 3125
+	1400 3125 9675 3125
 Wire Wire Line
 	3425 3125 3425 3075
 Wire Wire Line
@@ -2382,7 +2381,7 @@ Connection ~ 8425 3125
 Wire Wire Line
 	2800 3075 2800 3175
 Wire Wire Line
-	2800 3175 10300 3175
+	1400 3175 10300 3175
 Wire Wire Line
 	4050 3175 4050 3075
 Wire Wire Line
@@ -2622,4 +2621,38 @@ F 3 "" H 1975 675 50  0001 C CNN
 $EndComp
 Connection ~ 2000 675 
 Connection ~ 4050 4200
+Text Label 1450 875  1    60   ~ 0
+COL0
+Text Label 2700 875  1    60   ~ 0
+COL1
+Text Label 3950 875  1    60   ~ 0
+COL2
+Text Label 5200 875  1    60   ~ 0
+COL3
+Text Label 6450 875  1    60   ~ 0
+COL4
+Text Label 7700 875  1    60   ~ 0
+COL5
+Text Label 8950 875  1    60   ~ 0
+COL6
+Text Label 10200 875  1    60   ~ 0
+COL7
+Text Label 1400 1875 2    60   ~ 0
+ROW0
+Text Label 1400 1925 2    60   ~ 0
+ROW1
+Text Label 1400 2500 2    60   ~ 0
+ROW2
+Connection ~ 2175 3125
+Connection ~ 2175 2500
+Connection ~ 1550 1925
+Connection ~ 2175 1875
+Text Label 1400 2550 2    60   ~ 0
+ROW3
+Connection ~ 2800 2550
+Text Label 1400 3125 2    60   ~ 0
+ROW4
+Text Label 1400 3175 2    60   ~ 0
+ROW5
+Connection ~ 2800 3175
 $EndSCHEMATC
