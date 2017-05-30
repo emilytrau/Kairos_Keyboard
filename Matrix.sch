@@ -1502,17 +1502,6 @@ F6 "rightshift5V" I L 9275 4150 60
 F7 "rightshiftLEDGND" I L 9275 4250 60 
 $EndSheet
 $Sheet
-S 711  3785 925  600 
-U 59210B32
-F0 "leftshift" 60
-F1 "leftshift.sch" 60
-F2 "leftshiftcol1" I R 1636 3850 60 
-F3 "leftshiftcol2" I R 1636 3950 60 
-F4 "leftshiftrow1" I R 1636 4050 60 
-F5 "leftshift5V" I R 1636 4150 60 
-F6 "leftshiftLEDGND" I R 1636 4250 60 
-$EndSheet
-$Sheet
 S 8625 5125 1425 675 
 U 5921602E
 F0 "rightmods" 60
@@ -1936,6 +1925,57 @@ F7 "leftmodsLEDGND" I R 3175 5900 60
 $EndSheet
 Text GLabel 1175 1775 0    60   Input ~ 0
 LEDGND
+$Comp
+L +5V #PWR?
+U 1 1 593478ED
+P 1975 675
+F 0 "#PWR?" H 1975 525 50  0001 C CNN
+F 1 "+5V" H 1975 815 50  0000 C CNN
+F 2 "" H 1975 675 50  0001 C CNN
+F 3 "" H 1975 675 50  0001 C CNN
+	1    1975 675 
+	0    -1   -1   0   
+$EndComp
+Text Label 1450 875  1    60   ~ 0
+COL0
+Text Label 2700 875  1    60   ~ 0
+COL1
+Text Label 3950 875  1    60   ~ 0
+COL2
+Text Label 5200 875  1    60   ~ 0
+COL3
+Text Label 6450 875  1    60   ~ 0
+COL4
+Text Label 7700 875  1    60   ~ 0
+COL5
+Text Label 8950 875  1    60   ~ 0
+COL6
+Text Label 10200 875  1    60   ~ 0
+COL7
+Text Label 1400 1875 2    60   ~ 0
+ROW0
+Text Label 1400 1925 2    60   ~ 0
+ROW1
+Text Label 1400 2500 2    60   ~ 0
+ROW2
+Text Label 1400 2550 2    60   ~ 0
+ROW3
+Text Label 1400 3125 2    60   ~ 0
+ROW4
+Text Label 1400 3175 2    60   ~ 0
+ROW5
+$Sheet
+S 750  4600 875  600 
+U 59322ADE
+F0 "leftshift" 60
+F1 "leftshift.sch" 60
+F2 "leftshiftrow1" I R 1625 4650 60 
+F3 "leftshift5V" I R 1625 5050 60 
+F4 "leftshiftLEDGND" I R 1625 5150 60 
+F5 "leftshiftrow2" I R 1625 4750 60 
+F6 "leftshiftcol2" I R 1625 4950 60 
+F7 "leftshiftcol1" I R 1625 4850 60 
+$EndSheet
 Wire Wire Line
 	1775 1625 1750 1625
 Wire Wire Line
@@ -2400,7 +2440,7 @@ Wire Wire Line
 	10300 3175 10300 3075
 Connection ~ 9050 3175
 Wire Wire Line
-	3425 4250 7175 4250
+	1400 4250 7175 4250
 Connection ~ 4675 4200
 Connection ~ 3425 4200
 Connection ~ 5925 4200
@@ -2408,7 +2448,7 @@ Connection ~ 4675 4250
 Connection ~ 7175 4200
 Connection ~ 5925 4250
 Wire Wire Line
-	2800 4300 7800 4300
+	1400 4300 7800 4300
 Connection ~ 2800 4200
 Connection ~ 5300 4200
 Connection ~ 4050 4300
@@ -2608,51 +2648,39 @@ Connection ~ 4875 3500
 Connection ~ 4250 3500
 Connection ~ 3625 3500
 Connection ~ 3000 3500
-$Comp
-L +5V #PWR?
-U 1 1 593478ED
-P 1975 675
-F 0 "#PWR?" H 1975 525 50  0001 C CNN
-F 1 "+5V" H 1975 815 50  0000 C CNN
-F 2 "" H 1975 675 50  0001 C CNN
-F 3 "" H 1975 675 50  0001 C CNN
-	1    1975 675 
-	0    -1   -1   0   
-$EndComp
 Connection ~ 2000 675 
 Connection ~ 4050 4200
-Text Label 1450 875  1    60   ~ 0
-COL0
-Text Label 2700 875  1    60   ~ 0
-COL1
-Text Label 3950 875  1    60   ~ 0
-COL2
-Text Label 5200 875  1    60   ~ 0
-COL3
-Text Label 6450 875  1    60   ~ 0
-COL4
-Text Label 7700 875  1    60   ~ 0
-COL5
-Text Label 8950 875  1    60   ~ 0
-COL6
-Text Label 10200 875  1    60   ~ 0
-COL7
-Text Label 1400 1875 2    60   ~ 0
-ROW0
-Text Label 1400 1925 2    60   ~ 0
-ROW1
-Text Label 1400 2500 2    60   ~ 0
-ROW2
 Connection ~ 2175 3125
 Connection ~ 2175 2500
 Connection ~ 1550 1925
 Connection ~ 2175 1875
-Text Label 1400 2550 2    60   ~ 0
-ROW3
 Connection ~ 2800 2550
-Text Label 1400 3125 2    60   ~ 0
-ROW4
-Text Label 1400 3175 2    60   ~ 0
-ROW5
 Connection ~ 2800 3175
+Text Label 1400 4250 2    60   ~ 0
+ROW6
+Text Label 1400 4300 2    60   ~ 0
+ROW7
+Connection ~ 2800 4300
+Connection ~ 3425 4250
+Text Label 1625 4650 0    60   ~ 0
+ROW6
+Text Label 1625 4750 0    60   ~ 0
+ROW7
+Text Label 1625 4850 0    60   ~ 0
+COL0
+Text Label 1625 4950 0    60   ~ 0
+COL1
+Text GLabel 1625 5150 2    60   Input ~ 0
+LEDGND
+$Comp
+L +5V #PWR?
+U 1 1 593C4514
+P 1625 5050
+F 0 "#PWR?" H 1625 4900 50  0001 C CNN
+F 1 "+5V" H 1625 5190 50  0000 C CNN
+F 2 "" H 1625 5050 50  0001 C CNN
+F 3 "" H 1625 5050 50  0001 C CNN
+	1    1625 5050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
