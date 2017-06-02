@@ -1495,12 +1495,12 @@ S 9275 3675 1100 725
 U 5920EC51
 F0 "rightshift" 60
 F1 "rightshift.sch" 60
-F2 "rightshiftcol1" I L 9275 3850 60 
-F3 "rightshiftcol2" I L 9275 3950 60 
-F4 "rightshiftcol3" I L 9275 4050 60 
-F5 "rightshiftrow" I L 9275 3750 60 
-F6 "rightshift5V" I L 9275 4150 60 
-F7 "rightshiftLEDGND" I L 9275 4250 60 
+F2 "rightshiftcol1" I L 9275 3950 60 
+F3 "rightshiftcol2" I L 9275 4050 60 
+F4 "rightshift5V" I L 9275 4150 60 
+F5 "rightshiftLEDGND" I L 9275 4250 60 
+F6 "rightshiftrow1" I L 9275 3750 60 
+F7 "rightshiftrow2" I L 9275 3850 60 
 $EndSheet
 $Sheet
 S 8625 5125 1425 675 
@@ -2692,4 +2692,25 @@ Text Label 3175 5375 0    60   ~ 0
 ROW8
 Text Label 3175 5475 0    60   ~ 0
 ROW9
+Text Label 9275 3750 2    60   ~ 0
+ROW6
+Text Label 9275 3850 2    60   ~ 0
+ROW7
+Text Label 9275 3950 2    60   ~ 0
+COL6
+Text Label 9275 4050 2    60   ~ 0
+COL7
+Text GLabel 9275 4250 0    60   Input ~ 0
+LEDGND
+$Comp
+L +5V #PWR?
+U 1 1 5938990F
+P 9275 4150
+F 0 "#PWR?" H 9275 4000 50  0001 C CNN
+F 1 "+5V" H 9275 4290 50  0000 C CNN
+F 2 "" H 9275 4150 50  0000 C CNN
+F 3 "" H 9275 4150 50  0000 C CNN
+	1    9275 4150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
