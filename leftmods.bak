@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MX_Alps_Hybrids
-LIBS:Matrix-cache
+LIBS:ws2812b
+LIBS:Kairos-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -122,7 +123,83 @@ F 3 "" H 5325 5250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 4200 5450 0    60   Input ~ 0
-leftmodsrow
+leftmodsrow1
+$Comp
+L D DLM1
+U 1 1 591D216C
+P 4500 3725
+F 0 "DLM1" H 4500 3825 50  0000 C CNN
+F 1 "1N4148WS" H 4500 3625 50  0000 C CNN
+F 2 "" H 4500 3725 50  0000 C CNN
+F 3 "" H 4500 3725 50  0000 C CNN
+	1    4500 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D DLM2
+U 1 1 591D28A1
+P 5050 3725
+F 0 "DLM2" H 5050 3825 50  0000 C CNN
+F 1 "1N4148WS" H 5050 3625 50  0000 C CNN
+F 2 "" H 5050 3725 50  0000 C CNN
+F 3 "" H 5050 3725 50  0000 C CNN
+	1    5050 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D DLM3
+U 1 1 591D2AA8
+P 5600 3725
+F 0 "DLM3" H 5600 3825 50  0000 C CNN
+F 1 "1N4148WS" H 5600 3625 50  0000 C CNN
+F 2 "" H 5600 3725 50  0000 C CNN
+F 3 "" H 5600 3725 50  0000 C CNN
+	1    5600 3725
+	0    -1   -1   0   
+$EndComp
+Text HLabel 4500 3575 1    60   Input ~ 0
+leftmodscol1
+Text HLabel 5050 3575 1    60   Input ~ 0
+leftmodscol2
+$Comp
+L R RLM1
+U 1 1 591D3F53
+P 4550 5825
+F 0 "RLM1" V 4630 5825 50  0000 C CNN
+F 1 "2.2k" V 4550 5825 50  0000 C CNN
+F 2 "" V 4480 5825 50  0000 C CNN
+F 3 "" H 4550 5825 50  0000 C CNN
+	1    4550 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RLM2
+U 1 1 591D4076
+P 5100 5825
+F 0 "RLM2" V 5180 5825 50  0000 C CNN
+F 1 "2.2k" V 5100 5825 50  0000 C CNN
+F 2 "" V 5030 5825 50  0000 C CNN
+F 3 "" H 5100 5825 50  0000 C CNN
+	1    5100 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L R RLM3
+U 1 1 591D444F
+P 5650 5825
+F 0 "RLM3" V 5730 5825 50  0000 C CNN
+F 1 "2.2k" V 5650 5825 50  0000 C CNN
+F 2 "" V 5580 5825 50  0000 C CNN
+F 3 "" H 5650 5825 50  0000 C CNN
+	1    5650 5825
+	1    0    0    -1  
+$EndComp
+Text HLabel 5700 5400 2    60   Input ~ 0
+leftmodsLEDGND
+Text HLabel 5100 6000 3    60   Input ~ 0
+leftmods5V
+Text HLabel 4200 5500 0    60   Input ~ 0
+leftmodsrow2
 Wire Wire Line
 	4975 4100 5050 4100
 Wire Wire Line
@@ -151,20 +228,16 @@ Wire Wire Line
 Wire Wire Line
 	5075 4875 4775 4875
 Wire Wire Line
-	4200 5450 5625 5450
+	5075 5450 4200 5450
 Connection ~ 5075 4875
 Wire Wire Line
 	4225 4875 4525 4875
-Wire Wire Line
-	4525 4875 4525 5450
 Connection ~ 4775 5450
-Connection ~ 4525 5450
 Wire Wire Line
 	5325 4875 5625 4875
 Wire Wire Line
-	5625 4875 5625 5450
+	5625 4875 5625 5500
 Connection ~ 5075 5450
-Connection ~ 5325 5450
 Wire Wire Line
 	4375 4725 4550 4725
 Wire Wire Line
@@ -207,93 +280,29 @@ Wire Wire Line
 Wire Wire Line
 	5675 4825 5375 4825
 Connection ~ 5375 5400
-Connection ~ 4225 5450
-$Comp
-L D DLM1
-U 1 1 591D216C
-P 4500 3725
-F 0 "DLM1" H 4500 3825 50  0000 C CNN
-F 1 "1N4148WS" H 4500 3625 50  0000 C CNN
-F 2 "" H 4500 3725 50  0000 C CNN
-F 3 "" H 4500 3725 50  0000 C CNN
-	1    4500 3725
-	0    -1   -1   0   
-$EndComp
 Connection ~ 4500 4675
-$Comp
-L D DLM2
-U 1 1 591D28A1
-P 5050 3725
-F 0 "DLM2" H 5050 3825 50  0000 C CNN
-F 1 "1N4148WS" H 5050 3625 50  0000 C CNN
-F 2 "" H 5050 3725 50  0000 C CNN
-F 3 "" H 5050 3725 50  0000 C CNN
-	1    5050 3725
-	0    -1   -1   0   
-$EndComp
 Connection ~ 5050 4100
-$Comp
-L D DLM3
-U 1 1 591D2AA8
-P 5600 3725
-F 0 "DLM3" H 5600 3825 50  0000 C CNN
-F 1 "1N4148WS" H 5600 3625 50  0000 C CNN
-F 2 "" H 5600 3725 50  0000 C CNN
-F 3 "" H 5600 3725 50  0000 C CNN
-	1    5600 3725
-	0    -1   -1   0   
-$EndComp
 Connection ~ 5600 4675
-Text HLabel 4500 3575 1    60   Input ~ 0
-leftmodscol1
-Text HLabel 5050 3575 1    60   Input ~ 0
-leftmodscol2
-Text HLabel 5600 3575 1    60   Input ~ 0
-leftmodscol3
-$Comp
-L R RLM1
-U 1 1 591D3F53
-P 4550 5825
-F 0 "RLM1" V 4630 5825 50  0000 C CNN
-F 1 "2.2k" V 4550 5825 50  0000 C CNN
-F 2 "" V 4480 5825 50  0000 C CNN
-F 3 "" H 4550 5825 50  0000 C CNN
-	1    4550 5825
-	1    0    0    -1  
-$EndComp
 Connection ~ 4550 5300
-$Comp
-L R RLM2
-U 1 1 591D4076
-P 5100 5825
-F 0 "RLM2" V 5180 5825 50  0000 C CNN
-F 1 "2.2k" V 5100 5825 50  0000 C CNN
-F 2 "" V 5030 5825 50  0000 C CNN
-F 3 "" H 5100 5825 50  0000 C CNN
-	1    5100 5825
-	1    0    0    -1  
-$EndComp
 Connection ~ 5100 5300
-$Comp
-L R RLM?
-U 1 1 591D444F
-P 5650 5825
-F 0 "RLM?" V 5730 5825 50  0000 C CNN
-F 1 "2.2k" V 5650 5825 50  0000 C CNN
-F 2 "" V 5580 5825 50  0000 C CNN
-F 3 "" H 5650 5825 50  0000 C CNN
-	1    5650 5825
-	1    0    0    -1  
-$EndComp
 Connection ~ 5650 5300
 Wire Wire Line
 	4550 5975 5650 5975
 Connection ~ 5100 5975
-Text HLabel 5700 5400 2    60   Input ~ 0
-leftmodsLEDGND
 Connection ~ 5675 5400
-Text HLabel 5100 6000 3    60   Input ~ 0
-leftmods5V
 Wire Wire Line
 	5100 6000 5100 5975
+Wire Wire Line
+	5625 5500 4200 5500
+Wire Wire Line
+	4225 5500 4225 5450
+Wire Wire Line
+	4525 4875 4525 5500
+Connection ~ 4225 5500
+Wire Wire Line
+	5325 5500 5325 5450
+Connection ~ 4525 5500
+Connection ~ 5325 5500
+Wire Wire Line
+	5050 3575 5600 3575
 $EndSCHEMATC

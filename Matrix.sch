@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MX_Alps_Hybrids
-LIBS:Matrix-cache
+LIBS:ws2812b
+LIBS:Kairos-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -1916,12 +1917,12 @@ S 1900 5325 1275 675
 U 591D8C4D
 F0 "leftmods" 60
 F1 "leftmods.sch" 60
-F2 "leftmodsrow" I R 3175 5400 60 
-F3 "leftmodscol1" I R 3175 5500 60 
-F4 "leftmodscol2" I R 3175 5600 60 
-F5 "leftmodscol3" I R 3175 5700 60 
-F6 "leftmods5V" I R 3175 5800 60 
-F7 "leftmodsLEDGND" I R 3175 5900 60 
+F2 "leftmodscol1" I R 3175 5575 60 
+F3 "leftmodscol2" I R 3175 5675 60 
+F4 "leftmods5V" I R 3175 5775 60 
+F5 "leftmodsLEDGND" I R 3175 5875 60 
+F6 "leftmodsrow1" I R 3175 5375 60 
+F7 "leftmodsrow2" I R 3175 5475 60 
 $EndSheet
 Text GLabel 1175 1775 0    60   Input ~ 0
 LEDGND
@@ -2683,4 +2684,12 @@ F 3 "" H 1625 5050 50  0001 C CNN
 	1    1625 5050
 	0    1    1    0   
 $EndComp
+Text Label 3175 5575 0    60   ~ 0
+COL0
+Text Label 3175 5675 0    60   ~ 0
+COL1
+Text Label 3175 5375 0    60   ~ 0
+ROW8
+Text Label 3175 5475 0    60   ~ 0
+ROW9
 $EndSCHEMATC
