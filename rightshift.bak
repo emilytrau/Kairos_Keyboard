@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -174,11 +174,11 @@ Connection ~ 6100 2800
 Wire Wire Line
 	4775 2425 5075 2425
 Wire Wire Line
-	5075 2425 5075 3575
+	5075 2425 5075 3625
 Wire Wire Line
 	5075 3000 4775 3000
 Wire Wire Line
-	4750 3575 6125 3575
+	5600 3575 4750 3575
 Connection ~ 5075 3000
 Wire Wire Line
 	5300 2425 5600 2425
@@ -190,13 +190,11 @@ Connection ~ 5600 3000
 Wire Wire Line
 	5825 2425 6125 2425
 Wire Wire Line
-	6125 2425 6125 3575
+	6125 3625 6125 2425
 Wire Wire Line
 	6125 3000 5825 3000
 Connection ~ 6125 3000
 Connection ~ 5300 3575
-Connection ~ 5075 3575
-Connection ~ 5825 3575
 Connection ~ 5600 3575
 Wire Wire Line
 	4925 2275 5100 2275
@@ -290,13 +288,10 @@ Text HLabel 5050 1700 1    60   Input ~ 0
 rightshiftcol1
 Text HLabel 5575 1700 1    60   Input ~ 0
 rightshiftcol2
-Text HLabel 6100 1700 1    60   Input ~ 0
-rightshiftcol3
 Connection ~ 6100 2225
 Connection ~ 5575 2225
 Text HLabel 4750 3575 0    60   Input ~ 0
-rightshiftrow
-Connection ~ 4775 3575
+rightshiftrow1
 $Comp
 L R RRS1
 U 1 1 591D6B12
@@ -343,4 +338,17 @@ Wire Wire Line
 Text HLabel 6200 3525 2    60   Input ~ 0
 rightshiftLEDGND
 Connection ~ 6175 3525
+Text HLabel 4750 3625 0    60   Input ~ 0
+rightshiftrow2
+Wire Wire Line
+	5575 1700 6100 1700
+Wire Wire Line
+	4775 3575 4775 3625
+Wire Wire Line
+	4750 3625 6125 3625
+Wire Wire Line
+	5825 3625 5825 3575
+Connection ~ 4775 3625
+Connection ~ 5075 3625
+Connection ~ 5825 3625
 $EndSCHEMATC
