@@ -2756,4 +2756,8 @@ F 3 "" H 8625 5675 50  0000 C CNN
 $EndComp
 Text GLabel 8625 5775 0    60   Input ~ 0
 LEDGND
+Text GLabel 5800 5575 2    60   Input ~ 0
+COL4
+Text GLabel 5800 5475 2    60   Input ~ 0
+ROW8
 $EndSCHEMATC

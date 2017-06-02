@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -70,8 +70,6 @@ $EndComp
 Wire Wire Line
 	3850 3525 6100 3525
 Connection ~ 5050 3525
-Text GLabel 6100 3525 2    60   Input ~ 0
-LEDGND
 $Comp
 L R RSP1
 U 1 1 593543DA
@@ -98,17 +96,6 @@ Wire Wire Line
 Connection ~ 5150 2800
 Wire Wire Line
 	4800 2500 4800 2450
-$Comp
-L +5V #PWR?
-U 1 1 59359514
-P 4800 2450
-F 0 "#PWR?" H 4800 2300 50  0001 C CNN
-F 1 "+5V" H 4800 2590 50  0000 C CNN
-F 2 "" H 4800 2450 50  0001 C CNN
-F 3 "" H 4800 2450 50  0001 C CNN
-	1    4800 2450
-	1    0    0    -1  
-$EndComp
 $Comp
 L MX-6.25U-FLIPPED SP2
 U 1 1 593599DE
@@ -156,4 +143,8 @@ Connection ~ 5200 2925
 Connection ~ 5800 2925
 Text HLabel 6050 2925 2    60   Input ~ 0
 spacebarcol
+Text HLabel 6100 3525 2    60   Input ~ 0
+spacebarLEDGND
+Text HLabel 4800 2450 1    60   Input ~ 0
+spacebar5V
 $EndSCHEMATC
