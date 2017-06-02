@@ -1507,6 +1507,13 @@ S 8625 5125 1425 675
 U 5921602E
 F0 "rightmods" 60
 F1 "rightmods.sch" 60
+F2 "rightmodsrow1" I L 8625 5175 60 
+F3 "rightmodsrow2" I L 8625 5275 60 
+F4 "rightmodsLEDGND" I L 8625 5775 60 
+F5 "rightmods5V" I L 8625 5675 60 
+F6 "rightmodscol3" I L 8625 5575 60 
+F7 "rightmodscol2" I L 8625 5475 60 
+F8 "rightmodscol1" I L 8625 5375 60 
 $EndSheet
 $Comp
 L MX-1U Z1
@@ -1937,34 +1944,6 @@ F 3 "" H 1975 675 50  0001 C CNN
 	1    1975 675 
 	0    -1   -1   0   
 $EndComp
-Text Label 1450 875  1    60   ~ 0
-COL0
-Text Label 2700 875  1    60   ~ 0
-COL1
-Text Label 3950 875  1    60   ~ 0
-COL2
-Text Label 5200 875  1    60   ~ 0
-COL3
-Text Label 6450 875  1    60   ~ 0
-COL4
-Text Label 7700 875  1    60   ~ 0
-COL5
-Text Label 8950 875  1    60   ~ 0
-COL6
-Text Label 10200 875  1    60   ~ 0
-COL7
-Text Label 1400 1875 2    60   ~ 0
-ROW0
-Text Label 1400 1925 2    60   ~ 0
-ROW1
-Text Label 1400 2500 2    60   ~ 0
-ROW2
-Text Label 1400 2550 2    60   ~ 0
-ROW3
-Text Label 1400 3125 2    60   ~ 0
-ROW4
-Text Label 1400 3175 2    60   ~ 0
-ROW5
 $Sheet
 S 750  4600 875  600 
 U 59322ADE
@@ -2155,7 +2134,7 @@ Connection ~ 9825 1675
 Wire Wire Line
 	9725 1425 9750 1425
 Wire Wire Line
-	9750 1425 9750 1775
+	9750 1775 9750 1425
 Wire Wire Line
 	1175 1775 10350 1775
 Wire Wire Line
@@ -2215,16 +2194,16 @@ Wire Wire Line
 Wire Wire Line
 	3425 3700 3425 4250
 Wire Wire Line
-	4050 3700 4050 4300
+	4050 4300 4050 3700
 Wire Wire Line
 	4100 4150 4100 3650
 Wire Wire Line
 	4250 3500 4250 4000
 Connection ~ 4200 3600
 Wire Wire Line
-	4675 3700 4675 4250
+	4675 4250 4675 3700
 Wire Wire Line
-	4725 3650 4725 4150
+	4725 4150 4725 3650
 Wire Wire Line
 	4875 3500 4875 4000
 Connection ~ 4825 3600
@@ -2232,25 +2211,25 @@ Connection ~ 5450 3600
 Wire Wire Line
 	5500 3500 5500 4000
 Wire Wire Line
-	5350 3650 5350 4150
+	5350 4150 5350 3650
 Wire Wire Line
 	5300 4300 5300 3700
 Wire Wire Line
 	5925 4250 5925 3700
 Wire Wire Line
-	5975 3650 5975 4150
+	5975 4150 5975 3650
 Wire Wire Line
 	6125 3500 6125 4000
 Connection ~ 6075 3600
 Wire Wire Line
-	6600 3650 6600 4150
+	6600 4150 6600 3650
 Wire Wire Line
 	6550 4300 6550 3700
 Wire Wire Line
 	6750 3500 6750 4000
 Connection ~ 6700 3600
 Wire Wire Line
-	7225 3650 7225 4150
+	7225 4150 7225 3650
 Wire Wire Line
 	7175 4250 7175 3700
 Wire Wire Line
@@ -2264,43 +2243,43 @@ Wire Wire Line
 Wire Wire Line
 	7800 4300 7800 3700
 Wire Wire Line
-	10825 2875 10825 875 
+	10825 875  10825 2875
 Wire Wire Line
 	10825 875  10200 875 
 Wire Wire Line
 	10200 875  10200 2875
 Wire Wire Line
-	9575 2875 9575 875 
+	9575 875  9575 2875
 Wire Wire Line
 	9575 875  8950 875 
 Wire Wire Line
 	8950 875  8950 2875
 Wire Wire Line
-	8325 3500 8325 875 
+	8325 875  8325 3500
 Wire Wire Line
 	8325 875  7700 875 
 Wire Wire Line
 	7700 875  7700 3500
 Wire Wire Line
-	7075 3500 7075 875 
+	7075 875  7075 3500
 Wire Wire Line
 	7075 875  6450 875 
 Wire Wire Line
 	6450 875  6450 3500
 Wire Wire Line
-	5825 3500 5825 875 
+	5825 875  5825 3500
 Wire Wire Line
 	5825 875  5200 875 
 Wire Wire Line
 	5200 875  5200 3500
 Wire Wire Line
-	4575 3500 4575 875 
+	4575 875  4575 3500
 Wire Wire Line
 	4575 875  3950 875 
 Wire Wire Line
 	3950 875  3950 3500
 Wire Wire Line
-	3325 3500 3325 875 
+	3325 875  3325 3500
 Wire Wire Line
 	3325 875  2700 875 
 Wire Wire Line
@@ -2527,13 +2506,13 @@ Wire Wire Line
 Wire Wire Line
 	10750 675  10750 2975
 Wire Wire Line
-	10125 2975 10125 675 
+	10125 675  10125 2975
 Connection ~ 10125 675 
 Wire Wire Line
-	9500 2975 9500 675 
+	9500 675  9500 2975
 Connection ~ 9500 675 
 Wire Wire Line
-	8875 2975 8875 675 
+	8875 675  8875 2975
 Connection ~ 8875 675 
 Wire Wire Line
 	8250 675  8250 3600
@@ -2544,28 +2523,28 @@ Connection ~ 7625 675
 Connection ~ 8250 2975
 Connection ~ 7625 2975
 Wire Wire Line
-	7000 3600 7000 675 
+	7000 675  7000 3600
 Connection ~ 7000 675 
 Wire Wire Line
-	6375 3600 6375 675 
+	6375 675  6375 3600
 Connection ~ 6375 675 
 Wire Wire Line
-	5750 3600 5750 675 
+	5750 675  5750 3600
 Connection ~ 5750 675 
 Wire Wire Line
 	5125 675  5125 3600
 Connection ~ 5125 675 
 Wire Wire Line
-	4500 3600 4500 675 
+	4500 675  4500 3600
 Connection ~ 4500 675 
 Wire Wire Line
-	3875 3600 3875 675 
+	3875 675  3875 3600
 Connection ~ 3875 675 
 Wire Wire Line
-	3250 3600 3250 675 
+	3250 675  3250 3600
 Connection ~ 3250 675 
 Wire Wire Line
-	2625 2975 2625 675 
+	2625 675  2625 2975
 Connection ~ 2625 675 
 Connection ~ 2625 1725
 Connection ~ 2625 2350
@@ -2657,20 +2636,8 @@ Connection ~ 1550 1925
 Connection ~ 2175 1875
 Connection ~ 2800 2550
 Connection ~ 2800 3175
-Text Label 1400 4250 2    60   ~ 0
-ROW6
-Text Label 1400 4300 2    60   ~ 0
-ROW7
 Connection ~ 2800 4300
 Connection ~ 3425 4250
-Text Label 1625 4650 0    60   ~ 0
-ROW6
-Text Label 1625 4750 0    60   ~ 0
-ROW7
-Text Label 1625 4850 0    60   ~ 0
-COL0
-Text Label 1625 4950 0    60   ~ 0
-COL1
 Text GLabel 1625 5150 2    60   Input ~ 0
 LEDGND
 $Comp
@@ -2684,22 +2651,6 @@ F 3 "" H 1625 5050 50  0001 C CNN
 	1    1625 5050
 	0    1    1    0   
 $EndComp
-Text Label 3175 5575 0    60   ~ 0
-COL0
-Text Label 3175 5675 0    60   ~ 0
-COL1
-Text Label 3175 5375 0    60   ~ 0
-ROW8
-Text Label 3175 5475 0    60   ~ 0
-ROW9
-Text Label 9275 3750 2    60   ~ 0
-ROW6
-Text Label 9275 3850 2    60   ~ 0
-ROW7
-Text Label 9275 3950 2    60   ~ 0
-COL6
-Text Label 9275 4050 2    60   ~ 0
-COL7
 Text GLabel 9275 4250 0    60   Input ~ 0
 LEDGND
 $Comp
@@ -2713,4 +2664,96 @@ F 3 "" H 9275 4150 50  0000 C CNN
 	1    9275 4150
 	0    -1   -1   0   
 $EndComp
+Text GLabel 1400 1875 0    60   Input ~ 0
+ROW0
+Text GLabel 1400 1925 0    60   Input ~ 0
+ROW1
+Text GLabel 1400 2500 0    60   Input ~ 0
+ROW2
+Text GLabel 1400 2550 0    60   Input ~ 0
+ROW3
+Text GLabel 1400 3125 0    60   Input ~ 0
+ROW4
+Text GLabel 1400 3175 0    60   Input ~ 0
+ROW5
+Text GLabel 1400 4250 0    60   Input ~ 0
+ROW6
+Text GLabel 1400 4300 0    60   Input ~ 0
+ROW7
+Text GLabel 1450 875  1    60   Input ~ 0
+COL0
+Text GLabel 2700 875  1    60   Input ~ 0
+COL1
+Text GLabel 3950 875  1    60   Input ~ 0
+COL2
+Text GLabel 5200 875  1    60   Input ~ 0
+COL3
+Text GLabel 6450 875  1    60   Input ~ 0
+COL4
+Text GLabel 7700 875  1    60   Input ~ 0
+COL5
+Text GLabel 8950 875  1    60   Input ~ 0
+COL6
+Text GLabel 10200 875  1    60   Input ~ 0
+COL7
+Text GLabel 1625 4650 2    60   Input ~ 0
+ROW6
+Text GLabel 1625 4750 2    60   Input ~ 0
+ROW7
+Text GLabel 1625 4850 2    60   Input ~ 0
+COL0
+Text GLabel 1625 4950 2    60   Input ~ 0
+COL1
+Text GLabel 3175 5375 2    60   Input ~ 0
+ROW8
+Text GLabel 3175 5475 2    60   Input ~ 0
+ROW9
+Text GLabel 3175 5575 2    60   Input ~ 0
+COL0
+Text GLabel 3175 5675 2    60   Input ~ 0
+COL1
+Text GLabel 3175 5875 2    60   Input ~ 0
+LEDGND
+$Comp
+L +5V #PWR?
+U 1 1 593550ED
+P 3175 5775
+F 0 "#PWR?" H 3175 5625 50  0001 C CNN
+F 1 "+5V" H 3175 5915 50  0000 C CNN
+F 2 "" H 3175 5775 50  0001 C CNN
+F 3 "" H 3175 5775 50  0001 C CNN
+	1    3175 5775
+	0    1    1    0   
+$EndComp
+Text GLabel 9275 3750 0    60   Input ~ 0
+ROW6
+Text GLabel 9275 3850 0    60   Input ~ 0
+ROW7
+Text GLabel 9275 4050 0    60   Input ~ 0
+COL7
+Text GLabel 9275 3950 0    60   Input ~ 0
+COL6
+Text GLabel 8625 5175 0    60   Input ~ 0
+ROW8
+Text GLabel 8625 5275 0    60   Input ~ 0
+ROW9
+Text GLabel 8625 5575 0    60   Input ~ 0
+COL7
+Text GLabel 8625 5475 0    60   Input ~ 0
+COL6
+Text GLabel 8625 5375 0    60   Input ~ 0
+COL5
+$Comp
+L +5V #PWR?
+U 1 1 5934A30E
+P 8625 5675
+F 0 "#PWR?" H 8625 5525 50  0001 C CNN
+F 1 "+5V" H 8625 5815 50  0000 C CNN
+F 2 "" H 8625 5675 50  0000 C CNN
+F 3 "" H 8625 5675 50  0000 C CNN
+	1    8625 5675
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8625 5775 0    60   Input ~ 0
+LEDGND
 $EndSCHEMATC
