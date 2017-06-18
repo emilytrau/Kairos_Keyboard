@@ -1918,6 +1918,8 @@ F0 "spacebar" 60
 F1 "spacebar.sch" 60
 F2 "spacebarrow" I R 5800 5475 60 
 F3 "spacebarcol" I R 5800 5575 60 
+F4 "spacebarLEDGND" I R 5800 5775 60 
+F5 "spacebar5V" I R 5800 5675 60 
 $EndSheet
 $Sheet
 S 1900 5325 1275 675 
@@ -2134,7 +2136,7 @@ Connection ~ 9825 1675
 Wire Wire Line
 	9725 1425 9750 1425
 Wire Wire Line
-	9750 1775 9750 1425
+	9750 1425 9750 1775
 Wire Wire Line
 	1175 1775 10350 1775
 Wire Wire Line
@@ -2760,4 +2762,17 @@ Text GLabel 5800 5575 2    60   Input ~ 0
 COL4
 Text GLabel 5800 5475 2    60   Input ~ 0
 ROW8
+$Comp
+L +5V #PWR?
+U 1 1 59310185
+P 5800 5675
+F 0 "#PWR?" H 5800 5525 50  0001 C CNN
+F 1 "+5V" H 5800 5815 50  0000 C CNN
+F 2 "" H 5800 5675 50  0000 C CNN
+F 3 "" H 5800 5675 50  0000 C CNN
+	1    5800 5675
+	0    1    1    0   
+$EndComp
+Text GLabel 5800 5775 2    60   Input ~ 0
+LEDGND
 $EndSCHEMATC
