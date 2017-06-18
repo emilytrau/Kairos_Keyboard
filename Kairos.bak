@@ -689,17 +689,6 @@ $EndComp
 Text GLabel 3850 1500 0    60   Input ~ 0
 LEDGND
 $Comp
-L USB_OTG J1
-U 1 1 594639AC
-P 900 4500
-F 0 "J1" H 700 4950 50  0000 L CNN
-F 1 "USB_OTG" H 700 4850 50  0000 L CNN
-F 2 "" H 1050 4450 50  0001 C CNN
-F 3 "" H 1050 4450 50  0001 C CNN
-	1    900  4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L VCC #PWR020
 U 1 1 59465485
 P 1250 4300
@@ -735,17 +724,17 @@ $EndComp
 $Comp
 L GND #PWR022
 U 1 1 594659E2
-P 900 4950
-F 0 "#PWR022" H 900 4700 50  0001 C CNN
-F 1 "GND" H 900 4800 50  0000 C CNN
-F 2 "" H 900 4950 50  0001 C CNN
-F 3 "" H 900 4950 50  0001 C CNN
-	1    900  4950
-	1    0    0    -1  
+P 1150 4700
+F 0 "#PWR022" H 1150 4450 50  0001 C CNN
+F 1 "GND" H 1150 4550 50  0000 C CNN
+F 2 "" H 1150 4700 50  0001 C CNN
+F 3 "" H 1150 4700 50  0001 C CNN
+	1    1150 4700
+	0    -1   -1   0   
 $EndComp
-Text GLabel 1250 4500 2    60   Input ~ 0
+Text GLabel 1150 4500 2    60   Input ~ 0
 DP
-Text GLabel 1250 4600 2    60   Input ~ 0
+Text GLabel 1150 4400 2    60   Input ~ 0
 DM
 $Comp
 L SW_PUSH SW1
@@ -1010,21 +999,27 @@ Wire Wire Line
 Wire Wire Line
 	3850 1400 3850 1500
 Wire Wire Line
-	1200 4300 1300 4300
+	1150 4300 1300 4300
 Connection ~ 1250 4300
 Wire Wire Line
 	1600 4300 1650 4300
-Wire Wire Line
-	1200 4500 1250 4500
-Wire Wire Line
-	1200 4600 1250 4600
-Wire Wire Line
-	900  4900 900  4950
 Wire Wire Line
 	1900 2150 1900 2350
 Connection ~ 1900 2350
 Wire Wire Line
 	1300 2150 1250 2150
-NoConn ~ 800  4900
 NoConn ~ 10000 6150
+$Comp
+L USB_mini_micro_B J1
+U 1 1 5947BA25
+P 1000 4450
+F 0 "J1" H 600 4400 60  0000 C CNN
+F 1 "USB_mini_micro_B" H 850 4700 60  0001 C CNN
+F 2 "" H 950 4450 60  0000 C CNN
+F 3 "" H 950 4450 60  0000 C CNN
+	1    1000 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1150 4600
+NoConn ~ 1150 4800
 $EndSCHEMATC
