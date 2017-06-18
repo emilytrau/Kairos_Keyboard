@@ -191,7 +191,7 @@ Connection ~ 5600 3000
 Wire Wire Line
 	5825 2425 6125 2425
 Wire Wire Line
-	6125 3625 6125 2425
+	6125 2425 6125 3625
 Wire Wire Line
 	6125 3000 5825 3000
 Connection ~ 6125 3000
@@ -346,7 +346,7 @@ Wire Wire Line
 Wire Wire Line
 	4775 3575 4775 3625
 Wire Wire Line
-	4750 3625 6125 3625
+	6125 3625 4750 3625
 Wire Wire Line
 	5825 3625 5825 3575
 Connection ~ 4775 3625
