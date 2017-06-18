@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -153,13 +153,7 @@ F 3 "" H 8000 4725 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 2775 7650 3000
-Wire Wire Line
-	7650 3000 7650 3575
-Wire Wire Line
-	7650 3575 7650 4150
-Wire Wire Line
-	7650 4150 7650 4725
+	7650 2775 7650 4725
 Wire Wire Line
 	7650 3000 7575 3000
 Wire Wire Line
@@ -185,9 +179,7 @@ $EndComp
 Wire Wire Line
 	8275 4725 8200 4725
 Wire Wire Line
-	8275 2775 8275 4150
-Wire Wire Line
-	8275 4150 8275 4725
+	8275 2775 8275 4725
 Wire Wire Line
 	8200 4150 8275 4150
 Connection ~ 8275 4150
@@ -198,13 +190,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 4925 8000 4925
 Wire Wire Line
-	7375 4350 7675 4350
+	7675 4350 7375 4350
 Wire Wire Line
-	7675 3200 7675 3775
-Wire Wire Line
-	7675 3775 7675 4350
-Wire Wire Line
-	7675 4350 7675 4925
+	7675 3200 7675 4925
 Wire Wire Line
 	7375 3775 7675 3775
 Connection ~ 7675 4350
@@ -214,13 +202,7 @@ Connection ~ 7675 3775
 Wire Wire Line
 	7525 3050 7700 3050
 Wire Wire Line
-	7700 3050 7700 3625
-Wire Wire Line
-	7700 3625 7700 4200
-Wire Wire Line
-	7700 4200 7700 4775
-Wire Wire Line
-	7700 4775 7700 5125
+	7700 3050 7700 5125
 Wire Wire Line
 	7700 3625 7525 3625
 Wire Wire Line
@@ -232,29 +214,19 @@ Connection ~ 7700 4200
 Wire Wire Line
 	8150 4775 8325 4775
 Wire Wire Line
-	8325 4200 8325 4775
-Wire Wire Line
-	8325 4775 8325 5125
+	8325 4200 8325 5125
 Wire Wire Line
 	8325 4200 8150 4200
 Wire Wire Line
 	8050 4300 8350 4300
 Wire Wire Line
-	8350 4300 8350 4875
-Wire Wire Line
-	8350 4875 8350 5100
+	8350 4300 8350 5100
 Wire Wire Line
 	8350 4875 8050 4875
 Wire Wire Line
 	7725 4875 7425 4875
 Wire Wire Line
-	7725 3150 7725 3725
-Wire Wire Line
-	7725 3725 7725 4300
-Wire Wire Line
-	7725 4300 7725 4875
-Wire Wire Line
-	7725 4875 7725 5100
+	7725 3150 7725 5100
 Wire Wire Line
 	7725 4300 7425 4300
 Wire Wire Line
@@ -266,9 +238,7 @@ Connection ~ 7725 3725
 Connection ~ 8325 4775
 Connection ~ 7700 4775
 Wire Wire Line
-	7700 5425 7700 5450
-Wire Wire Line
-	7700 5450 7700 5475
+	7700 5425 7700 5475
 Wire Wire Line
 	7700 5450 8325 5450
 Wire Wire Line
