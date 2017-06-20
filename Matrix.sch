@@ -2245,7 +2245,7 @@ Wire Wire Line
 Wire Wire Line
 	9575 875  8950 875 
 Wire Wire Line
-	8950 875  8950 2875
+	8950 875  8950 3500
 Wire Wire Line
 	8325 875  8325 3500
 Wire Wire Line
@@ -2420,7 +2420,7 @@ Connection ~ 4675 4250
 Connection ~ 7175 4200
 Connection ~ 5925 4250
 Wire Wire Line
-	1400 4300 7800 4300
+	8425 4300 1400 4300
 Connection ~ 2800 4200
 Connection ~ 5300 4200
 Connection ~ 4050 4300
@@ -2471,7 +2471,7 @@ Connection ~ 4100 3025
 Connection ~ 3475 3025
 Connection ~ 2850 3025
 Wire Wire Line
-	2300 4150 7850 4150
+	2300 4150 8475 4150
 Connection ~ 7225 4150
 Connection ~ 6600 4150
 Connection ~ 5975 4150
@@ -2504,7 +2504,7 @@ Wire Wire Line
 	9500 675  9500 2975
 Connection ~ 9500 675 
 Wire Wire Line
-	8875 675  8875 2975
+	8875 675  8875 3600
 Connection ~ 8875 675 
 Wire Wire Line
 	8250 675  8250 3600
@@ -2776,4 +2776,64 @@ F 3 "" H 10300 2875 60  0001 C CNN
 	1    10325 2900
 	1    0    0    -1  
 $EndComp
+$Comp
+L MX-1U K_?1
+U 1 1 594942DC
+P 8450 3525
+F 0 "K_?1" H 8450 3650 60  0000 C CNN
+F 1 "MX-1U" H 8450 3575 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8425 3500 60  0001 C CNN
+F 3 "" H 8425 3500 60  0001 C CNN
+	1    8450 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?1
+U 1 1 594942E2
+P 8725 3600
+F 0 "R?1" V 8805 3600 50  0000 C CNN
+F 1 "2.2k" V 8725 3600 50  0000 C CNN
+F 2 "" V 8655 3600 50  0001 C CNN
+F 3 "" H 8725 3600 50  0001 C CNN
+	1    8725 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?1
+U 1 1 594942E8
+P 8800 3500
+F 0 "D?1" H 8800 3625 50  0000 C CNN
+F 1 "1N4148WS" H 8800 3575 20  0000 C CNN
+F 2 "" H 8800 3500 50  0001 C CNN
+F 3 "" H 8800 3500 50  0001 C CNN
+	1    8800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-1U K_?2
+U 1 1 594942EE
+P 8450 4025
+F 0 "K_?2" H 8450 4150 60  0000 C CNN
+F 1 "MX-1U" H 8450 4075 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 8425 4000 60  0001 C CNN
+F 3 "" H 8425 4000 60  0001 C CNN
+	1    8450 4025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3500 8625 3500
+Wire Wire Line
+	8575 3550 8575 4050
+Connection ~ 8575 3600
+Wire Wire Line
+	8625 3500 8625 4000
+Wire Wire Line
+	8475 4150 8475 3650
+Wire Wire Line
+	8425 3700 8425 4300
+Connection ~ 8625 3500
+Connection ~ 8950 2875
+Connection ~ 8875 2975
+Connection ~ 7800 4300
+Connection ~ 8425 4200
 $EndSCHEMATC
