@@ -2067,7 +2067,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2875 2375 2875
 Wire Wire Line
-	2325 2925 2325 2975
+	2325 2925 2325 3550
 Wire Wire Line
 	3025 2875 3000 2875
 Wire Wire Line
@@ -2186,7 +2186,7 @@ Wire Wire Line
 Wire Wire Line
 	3425 3700 3425 4250
 Wire Wire Line
-	4050 4300 4050 3700
+	4050 3700 4050 4300
 Wire Wire Line
 	4100 4150 4100 3650
 Wire Wire Line
@@ -2205,7 +2205,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 4150 5350 3650
 Wire Wire Line
-	5300 4300 5300 3700
+	5300 3700 5300 4300
 Wire Wire Line
 	5925 4250 5925 3700
 Wire Wire Line
@@ -2216,7 +2216,7 @@ Connection ~ 6075 3600
 Wire Wire Line
 	6600 4150 6600 3650
 Wire Wire Line
-	6550 4300 6550 3700
+	6550 3700 6550 4300
 Wire Wire Line
 	6750 3500 6750 4000
 Connection ~ 6700 3600
@@ -2233,7 +2233,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 4150 7850 3650
 Wire Wire Line
-	7800 4300 7800 3700
+	7800 3700 7800 4300
 Wire Wire Line
 	10825 875  10825 2875
 Wire Wire Line
@@ -2370,7 +2370,7 @@ Wire Wire Line
 	10300 2550 10300 2450
 Connection ~ 9050 2550
 Wire Wire Line
-	2175 3075 2175 3125
+	2175 3075 2175 3700
 Wire Wire Line
 	1400 3125 9675 3125
 Wire Wire Line
@@ -2471,7 +2471,7 @@ Connection ~ 4100 3025
 Connection ~ 3475 3025
 Connection ~ 2850 3025
 Wire Wire Line
-	2300 4150 8475 4150
+	2025 4150 8475 4150
 Connection ~ 7225 4150
 Connection ~ 6600 4150
 Connection ~ 5975 4150
@@ -2487,9 +2487,6 @@ Connection ~ 2225 2400
 Connection ~ 1600 1775
 Connection ~ 2225 3025
 Connection ~ 1175 2400
-Wire Wire Line
-	2300 4150 2300 3025
-Connection ~ 2300 3025
 Connection ~ 1175 1775
 Wire Wire Line
 	2000 1725 2000 675 
@@ -2836,4 +2833,23 @@ Connection ~ 8950 2875
 Connection ~ 8875 2975
 Connection ~ 7800 4300
 Connection ~ 8425 4200
+$Comp
+L MX-1.25U K_CAPS2
+U 1 1 5949EE43
+P 2200 3525
+F 0 "K_CAPS2" H 2200 3650 60  0000 C CNN
+F 1 "MX-1.25U" H 2200 3575 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U" H 2175 3500 60  0001 C CNN
+F 3 "" H 2175 3500 60  0001 C CNN
+	1    2200 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 3025 2025 4150
+Connection ~ 2025 3025
+Wire Wire Line
+	2225 3650 2225 3025
+Wire Wire Line
+	2375 2875 2375 3500
+Connection ~ 2325 2975
 $EndSCHEMATC
