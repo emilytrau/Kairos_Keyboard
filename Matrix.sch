@@ -1472,38 +1472,38 @@ $EndComp
 $Comp
 L MX-ISO K_ISOENTER1
 U 1 1 591EBE6F
-P 10325 2900
-F 0 "K_ISOENTER1" H 10325 3025 60  0000 C CNN
-F 1 "MX-ISO" H 10325 2950 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-ISO-Combined" H 10300 2875 60  0001 C CNN
-F 3 "" H 10300 2875 60  0001 C CNN
-	1    10325 2900
+P 10325 3400
+F 0 "K_ISOENTER1" H 10325 3525 60  0000 C CNN
+F 1 "MX-ISO" H 10325 3450 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-ISO-Combined" H 10300 3375 60  0001 C CNN
+F 3 "" H 10300 3375 60  0001 C CNN
+	1    10325 3400
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9275 3675 1100 725 
+S 9325 4500 1100 725 
 U 5920EC51
 F0 "rightshift" 60
 F1 "rightshift.sch" 60
-F2 "rightshiftcol1" I L 9275 3950 60 
-F3 "rightshiftcol2" I L 9275 4050 60 
-F4 "rightshift5V" I L 9275 4150 60 
-F5 "rightshiftLEDGND" I L 9275 4250 60 
-F6 "rightshiftrow1" I L 9275 3750 60 
-F7 "rightshiftrow2" I L 9275 3850 60 
+F2 "rightshiftcol1" I L 9325 4775 60 
+F3 "rightshiftcol2" I L 9325 4875 60 
+F4 "rightshift5V" I L 9325 4975 60 
+F5 "rightshiftLEDGND" I L 9325 5075 60 
+F6 "rightshiftrow1" I L 9325 4575 60 
+F7 "rightshiftrow2" I L 9325 4675 60 
 $EndSheet
 $Sheet
-S 8625 5125 1425 675 
+S 8625 5625 1425 675 
 U 5921602E
 F0 "rightmods" 60
 F1 "rightmods.sch" 60
-F2 "rightmodsrow1" I L 8625 5175 60 
-F3 "rightmodsrow2" I L 8625 5275 60 
-F4 "rightmodsLEDGND" I L 8625 5775 60 
-F5 "rightmods5V" I L 8625 5675 60 
-F6 "rightmodscol3" I L 8625 5575 60 
-F7 "rightmodscol2" I L 8625 5475 60 
-F8 "rightmodscol1" I L 8625 5375 60 
+F2 "rightmodsrow1" I L 8625 5675 60 
+F3 "rightmodsrow2" I L 8625 5775 60 
+F4 "rightmodsLEDGND" I L 8625 6275 60 
+F5 "rightmods5V" I L 8625 6175 60 
+F6 "rightmodscol3" I L 8625 6075 60 
+F7 "rightmodscol2" I L 8625 5975 60 
+F8 "rightmodscol1" I L 8625 5875 60 
 $EndSheet
 $Comp
 L MX-1U K_Z1
@@ -2121,7 +2121,7 @@ Wire Wire Line
 Wire Wire Line
 	10525 2875 10500 2875
 Wire Wire Line
-	10450 2925 10450 2975
+	10450 2925 10450 3950
 Wire Wire Line
 	9875 1625 9875 1275
 Connection ~ 9825 1675
@@ -2411,7 +2411,7 @@ Wire Wire Line
 	9050 3175 9050 3075
 Connection ~ 7800 3175
 Wire Wire Line
-	10300 3175 10300 3075
+	10300 3075 10300 4100
 Connection ~ 9050 3175
 Wire Wire Line
 	1400 4250 7175 4250
@@ -2642,17 +2642,17 @@ F 3 "" H 1625 5050 50  0001 C CNN
 	1    1625 5050
 	0    1    1    0   
 $EndComp
-Text GLabel 9275 4250 0    60   Input ~ 0
+Text GLabel 9325 5075 0    60   Input ~ 0
 LEDGND
 $Comp
 L +5V #PWR027
 U 1 1 5938990F
-P 9275 4150
-F 0 "#PWR027" H 9275 4000 50  0001 C CNN
-F 1 "+5V" H 9275 4290 50  0000 C CNN
-F 2 "" H 9275 4150 50  0000 C CNN
-F 3 "" H 9275 4150 50  0000 C CNN
-	1    9275 4150
+P 9325 4975
+F 0 "#PWR027" H 9325 4825 50  0001 C CNN
+F 1 "+5V" H 9325 5115 50  0000 C CNN
+F 2 "" H 9325 4975 50  0000 C CNN
+F 3 "" H 9325 4975 50  0000 C CNN
+	1    9325 4975
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1400 1875 0    60   Input ~ 0
@@ -2716,36 +2716,36 @@ F 3 "" H 3175 5775 50  0001 C CNN
 	1    3175 5775
 	0    1    1    0   
 $EndComp
-Text GLabel 9275 3750 0    60   Input ~ 0
+Text GLabel 9325 4575 0    60   Input ~ 0
 ROW6
-Text GLabel 9275 3850 0    60   Input ~ 0
+Text GLabel 9325 4675 0    60   Input ~ 0
 ROW7
-Text GLabel 9275 4050 0    60   Input ~ 0
+Text GLabel 9325 4875 0    60   Input ~ 0
 COL7
-Text GLabel 9275 3950 0    60   Input ~ 0
+Text GLabel 9325 4775 0    60   Input ~ 0
 COL6
-Text GLabel 8625 5175 0    60   Input ~ 0
+Text GLabel 8625 5675 0    60   Input ~ 0
 ROW8
-Text GLabel 8625 5275 0    60   Input ~ 0
+Text GLabel 8625 5775 0    60   Input ~ 0
 ROW9
-Text GLabel 8625 5575 0    60   Input ~ 0
+Text GLabel 8625 6075 0    60   Input ~ 0
 COL7
-Text GLabel 8625 5475 0    60   Input ~ 0
+Text GLabel 8625 5975 0    60   Input ~ 0
 COL6
-Text GLabel 8625 5375 0    60   Input ~ 0
+Text GLabel 8625 5875 0    60   Input ~ 0
 COL5
 $Comp
 L +5V #PWR029
 U 1 1 5934A30E
-P 8625 5675
-F 0 "#PWR029" H 8625 5525 50  0001 C CNN
-F 1 "+5V" H 8625 5815 50  0000 C CNN
-F 2 "" H 8625 5675 50  0000 C CNN
-F 3 "" H 8625 5675 50  0000 C CNN
-	1    8625 5675
+P 8625 6175
+F 0 "#PWR029" H 8625 6025 50  0001 C CNN
+F 1 "+5V" H 8625 6315 50  0000 C CNN
+F 2 "" H 8625 6175 50  0000 C CNN
+F 3 "" H 8625 6175 50  0000 C CNN
+	1    8625 6175
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8625 5775 0    60   Input ~ 0
+Text GLabel 8625 6275 0    60   Input ~ 0
 LEDGND
 $Comp
 L +5V #PWR030
@@ -2858,4 +2858,25 @@ Text GLabel 5800 5550 2    60   Input ~ 0
 COL4
 Text GLabel 5800 5750 2    60   Input ~ 0
 ROW9
+$Comp
+L MX-1.25U K_SENTER1
+U 1 1 594BC2DE
+P 10325 3925
+F 0 "K_SENTER1" H 10325 4050 60  0000 C CNN
+F 1 "MX-1.25U" H 10325 3975 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U" H 10300 3900 60  0001 C CNN
+F 3 "" H 10300 3900 60  0001 C CNN
+	1    10325 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 2875 10500 3900
+Connection ~ 10500 3375
+Connection ~ 10450 2975
+Connection ~ 10450 3425
+Wire Wire Line
+	10350 3025 10350 4050
+Connection ~ 10350 3525
+Connection ~ 10300 3175
+Connection ~ 10300 3575
 $EndSCHEMATC

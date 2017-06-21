@@ -207,7 +207,7 @@ $EndComp
 Wire Wire Line
 	5325 1300 5475 1300
 Wire Wire Line
-	5475 6600 5475 1300
+	5475 1300 5475 6600
 Wire Wire Line
 	5475 1825 5325 1825
 Wire Wire Line
@@ -345,7 +345,7 @@ Connection ~ 5375 5700
 Wire Wire Line
 	5575 2025 5825 2025
 Wire Wire Line
-	5825 6450 5825 2025
+	5825 2025 5825 6450
 Wire Wire Line
 	5825 2550 5575 2550
 Wire Wire Line
@@ -435,12 +435,12 @@ spacebarcol0
 Text HLabel 4875 6675 0    60   Input ~ 0
 spacebarcol1
 Wire Wire Line
-	4875 6600 5475 6600
+	5475 6600 4875 6600
 Connection ~ 5025 6600
 Wire Wire Line
 	5925 6675 4875 6675
 Wire Wire Line
-	4875 6450 5825 6450
+	5825 6450 4875 6450
 Wire Wire Line
 	5375 6525 4875 6525
 Connection ~ 4925 6450
