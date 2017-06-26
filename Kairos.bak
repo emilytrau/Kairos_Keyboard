@@ -255,17 +255,6 @@ F 3 "" H 1000 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y1
-U 1 1 59190D6E
-P 1550 2700
-F 0 "Y1" H 1550 2850 50  0000 C CNN
-F 1 "Crystal" H 1550 2550 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 1550 2700 50  0001 C CNN
-F 3 "" H 1550 2700 50  0001 C CNN
-	1    1550 2700
-	0    1    1    0   
-$EndComp
-$Comp
 L C C6
 U 1 1 59190E66
 P 1100 2550
@@ -769,6 +758,42 @@ F 3 "" H 1150 2350 50  0001 C CNN
 	1    1150 2350
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 10000 6150
+$Comp
+L USB_mini_micro_B J1
+U 1 1 5947BA25
+P 1000 4450
+F 0 "J1" H 600 4400 60  0000 C CNN
+F 1 "USB_mini_micro_B" H 850 4700 60  0001 C CNN
+F 2 "" H 950 4450 60  0001 C CNN
+F 3 "" H 950 4450 60  0000 C CNN
+	1    1000 4450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1150 4600
+NoConn ~ 1150 4800
+$Comp
+L R R5
+U 1 1 59512333
+P 4250 1700
+F 0 "R5" V 4330 1700 50  0000 C CNN
+F 1 "1.5k" V 4250 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4180 1700 50  0001 C CNN
+F 3 "" H 4250 1700 50  0001 C CNN
+	1    4250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal_GND24 Y1
+U 1 1 595144C9
+P 1550 2700
+F 0 "Y1" H 1675 2900 50  0000 L CNN
+F 1 "Crystal_GND24" H 1675 2825 50  0000 L CNN
+F 2 "" H 1550 2700 50  0001 C CNN
+F 3 "" H 1550 2700 50  0001 C CNN
+	1    1550 2700
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	4250 3550 4150 3550
 Wire Wire Line
@@ -810,15 +835,9 @@ Wire Wire Line
 Wire Wire Line
 	1000 1550 1000 1650
 Wire Wire Line
-	1250 2550 1950 2550
-Wire Wire Line
 	1950 2650 1850 2650
 Wire Wire Line
 	1850 2650 1850 2850
-Wire Wire Line
-	1850 2850 1250 2850
-Connection ~ 1550 2550
-Connection ~ 1550 2850
 Wire Wire Line
 	950  2550 850  2550
 Wire Wire Line
@@ -1006,33 +1025,34 @@ Wire Wire Line
 Connection ~ 1900 2350
 Wire Wire Line
 	1300 2150 1250 2150
-NoConn ~ 10000 6150
-$Comp
-L USB_mini_micro_B J1
-U 1 1 5947BA25
-P 1000 4450
-F 0 "J1" H 600 4400 60  0000 C CNN
-F 1 "USB_mini_micro_B" H 850 4700 60  0001 C CNN
-F 2 "" H 950 4450 60  0001 C CNN
-F 3 "" H 950 4450 60  0000 C CNN
-	1    1000 4450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1150 4600
-NoConn ~ 1150 4800
-$Comp
-L R R5
-U 1 1 59512333
-P 4250 1700
-F 0 "R5" V 4330 1700 50  0000 C CNN
-F 1 "1.5k" V 4250 1700 50  0000 C CNN
-F 2 "" V 4180 1700 50  0001 C CNN
-F 3 "" H 4250 1700 50  0001 C CNN
-	1    4250 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 1200 4250 1550
 Wire Wire Line
 	4250 2650 4250 1850
+Wire Wire Line
+	1250 2550 1950 2550
+Connection ~ 1550 2550
+Wire Wire Line
+	1850 2850 1250 2850
+Connection ~ 1550 2850
+Wire Wire Line
+	1750 2700 1950 2700
+Wire Wire Line
+	1950 2700 1950 3000
+$Comp
+L GND #PWR025
+U 1 1 595151E2
+P 1950 3000
+F 0 "#PWR025" H 1950 2750 50  0001 C CNN
+F 1 "GND" H 1950 2850 50  0000 C CNN
+F 2 "" H 1950 3000 50  0001 C CNN
+F 3 "" H 1950 3000 50  0001 C CNN
+	1    1950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2950 1350 2950
+Wire Wire Line
+	1350 2950 1350 2700
+Connection ~ 1950 2950
 $EndSCHEMATC
