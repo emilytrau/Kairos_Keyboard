@@ -6,7 +6,7 @@
     (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
-    (tracks 117)
+    (tracks 118)
     (zones 0)
     (modules 134)
     (nets 182)
@@ -5678,6 +5678,7 @@
     )
   )
 
+  (segment (start 9.92375 45.3525) (end 9.92375 39.0525) (width 0.381) (layer B.Cu) (net 4))
   (segment (start 36.195 41.43375) (end 36.22 41.43375) (width 0.25) (layer B.Cu) (net 139))
   (segment (start 36.22 41.43375) (end 36.845 40.80875) (width 0.25) (layer B.Cu) (net 139))
   (segment (start 36.845 40.80875) (end 36.845 40.583748) (width 0.25) (layer B.Cu) (net 139))
