@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -2543,7 +2543,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-2U (layer F.Cu) (tedit 5918A77D) (tstamp 59464058)
-    (at 23.8125 88.10625)
+    (at 23.8125 130.96875)
     (path /5919C979/59322ADE/591BE12C)
     (fp_text reference K_LS2 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2585,7 +2585,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 59189444) (tstamp 59464065)
-    (at 14.2875 88.10625)
+    (at -33.3375 130.96875)
     (path /5919C979/59322ADE/591BFCFF)
     (fp_text reference K_LS3 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2623,7 +2623,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 59189444) (tstamp 59464072)
-    (at 33.3375 88.10625)
+    (at -14.2875 130.96875)
     (path /5919C979/59322ADE/591C1993)
     (fp_text reference K_LS4 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2661,7 +2661,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1.25U (layer F.Cu) (tedit 5918944F) (tstamp 5946407F)
-    (at 16.66875 88.10625)
+    (at -30.95625 88.10625)
     (path /5919C979/59322ADE/591C5253)
     (fp_text reference K_LS5 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2699,7 +2699,7 @@
   )
 
   (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 59189444) (tstamp 5946408C)
-    (at 38.1 88.10625)
+    (at -9.525 88.10625)
     (path /5919C979/59322ADE/591C67D6)
     (fp_text reference K_LS6 (at 0 3.175) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
