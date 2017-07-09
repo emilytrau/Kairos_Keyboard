@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source C:/Users/Angus/Documents/GitHub/Kairos_Keyboard/Kairos.sch)
-    (date "9/07/2017 8:44:25 PM")
-    (tool "Eeschema 4.0.2-stable")
+    (source "C:/Users/Ryota/Documents/GitHub/Kairos_Keyboard (GitHub Desktop)/Kairos.sch")
+    (date "7/9/2017 8:04:22 PM")
+    (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -85,7 +85,7 @@
       (value ATMEGA32U2-AU)
       (footprint Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm)
       (datasheet http://www.atmel.com/Images/doc7799.pdf)
-      (libsource (lib Kairos-cache) (part ATMEGA32U2-AU))
+      (libsource (lib atmel) (part ATMEGA32U2-AU))
       (sheetpath (names /) (tstamps /))
       (tstamp 5918CF2B))
     (comp (ref R1)
@@ -277,12 +277,12 @@
     (comp (ref F1)
       (value Polyfuse)
       (footprint Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow)
-      (libsource (lib Kairos-cache) (part Polyfuse))
+      (libsource (lib device) (part Polyfuse))
       (sheetpath (names /) (tstamps /))
       (tstamp 5946558C))
     (comp (ref SW1)
       (value SW_RST1)
-      (libsource (lib device) (part SW_PUSH))
+      (libsource (lib keyboard_parts) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 59462D09))
     (comp (ref J1)
@@ -299,7 +299,7 @@
     (comp (ref Y1)
       (value Crystal_GND24)
       (footprint Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm)
-      (libsource (lib Kairos-cache) (part Crystal_GND24))
+      (libsource (lib device) (part Crystal_GND24))
       (sheetpath (names /) (tstamps /))
       (tstamp 595144C9))
     (comp (ref K_ESC1)
@@ -1241,8 +1241,8 @@
       (sheetpath (names /Matrix/rightshift/) (tstamps /5919C979/5920EC51/))
       (tstamp 591D166F))
     (comp (ref K_RS2)
-      (value MX-1.25U)
-      (footprint MX_Alps_Hybrid:MX-1.25U)
+      (value MX-1.75U)
+      (footprint MX_Alps_Hybrid:MX-1.75U)
       (libsource (lib MX_Alps_Hybrids) (part MX-1.25U))
       (sheetpath (names /Matrix/rightshift/) (tstamps /5919C979/5920EC51/))
       (tstamp 591D16FE))
@@ -1722,10 +1722,12 @@
       (sheetpath (names /Matrix/leftshift/) (tstamps /5919C979/59322ADE/))
       (tstamp 5947D05F)))
   (libparts
-    (libpart (lib Kairos-cache) (part ATMEGA8U2-AU)
+    (libpart (lib atmel) (part ATMEGA8U2-AU)
       (aliases
         (alias ATMEGA16U2-AU)
         (alias ATMEGA32U2-AU))
+      (description "TQFP-32, 8k Flash, 512B SRAM, 512B EEPROM")
+      (docs http://www.atmel.com/Images/doc7799.pdf)
       (footprints
         (fp TQFP-32)
         (fp QFN-32-1EP))
@@ -1775,7 +1777,7 @@
       (fields
         (field (name Reference) Q)
         (field (name Value) BCP51)
-        (field (name Footprint) SOT-223))
+        (field (name Footprint) TO_SOT_Packages_SMD:SOT-223))
       (pins
         (pin (num 1) (name B) (type input))
         (pin (num 2) (name C) (type passive))
@@ -1783,18 +1785,15 @@
     (libpart (lib device) (part C)
       (description "Unpolarized capacitor")
       (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
+        (fp C_*))
       (fields
         (field (name Reference) C)
         (field (name Value) C))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib Kairos-cache) (part Crystal_GND24)
+    (libpart (lib device) (part Crystal_GND24)
+      (description "Four pin crystal (GND on pins 2 and 4), e.g. in SMD package")
       (footprints
         (fp Crystal*))
       (fields
@@ -1808,11 +1807,11 @@
     (libpart (lib device) (part D)
       (description Diode)
       (footprints
-        (fp Diode_*)
-        (fp D-Pak_TO252AA)
+        (fp TO-???*)
         (fp *SingleDiode)
         (fp *_Diode_*)
-        (fp *SingleDiode*))
+        (fp *SingleDiode*)
+        (fp D_*))
       (fields
         (field (name Reference) D)
         (field (name Value) D))
@@ -1947,7 +1946,8 @@
         (pin (num 2) (name ROW) (type passive))
         (pin (num 3) (name LED) (type passive))
         (pin (num 4) (name LEDGND) (type passive))))
-    (libpart (lib Kairos-cache) (part Polyfuse)
+    (libpart (lib device) (part Polyfuse)
+      (description "resettable fuse, polymeric positive temperature coefficient (PPTC)")
       (footprints
         (fp *polyfuse*)
         (fp *PTC*))
@@ -1961,15 +1961,14 @@
       (description Resistor)
       (footprints
         (fp R_*)
-        (fp Resistor_*))
+        (fp R_*))
       (fields
         (field (name Reference) R)
         (field (name Value) R))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part SW_PUSH)
-      (description Button)
+    (libpart (lib keyboard_parts) (part SW_PUSH)
       (fields
         (field (name Reference) SW)
         (field (name Value) SW_PUSH))
@@ -2002,14 +2001,14 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
-    (library (logical Kairos-cache)
-      (uri C:\Users\Angus\Documents\GitHub\Kairos_Keyboard\Kairos-cache.lib))
+    (library (logical atmel)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
     (library (logical MX_Alps_Hybrids)
-      (uri "MX_Alps_Hybrid.pretty\\Schematic Library\\MX_Alps_Hybrids.lib"))
+      (uri "C:\\Users\\Ryota\\Documents\\GitHub\\Kairos_Keyboard (GitHub Desktop)\\MX_Alps_Hybrid.pretty\\Schematic Library\\MX_Alps_Hybrids.lib"))
     (library (logical keyboard_parts)
-      (uri kicad_lib_tmk\keyboard_parts.lib))
+      (uri "C:\\Users\\Ryota\\Documents\\GitHub\\Kairos_Keyboard (GitHub Desktop)\\kicad_lib_tmk\\keyboard_parts.lib"))
     (library (logical ws2812b)
-      (uri WS2812B.pretty\Schematic-Symbol\ws2812b.lib)))
+      (uri "C:\\Users\\Ryota\\Documents\\GitHub\\Kairos_Keyboard (GitHub Desktop)\\WS2812B.pretty\\Schematic-Symbol\\ws2812b.lib")))
   (nets
     (net (code 1) (name "Net-(LED2-Pad2)")
       (node (ref LED2) (pin 2))
