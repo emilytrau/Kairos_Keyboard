@@ -51,13 +51,13 @@ Left Shift Cluster\n
 $Comp
 L D DLS1
 U 1 1 591A55D2
-P 7150 4925
-F 0 "DLS1" H 7150 5025 50  0000 C CNN
-F 1 "1N4148WS" H 7150 4825 50  0000 C CNN
-F 2 "" H 7150 4925 50  0001 C CNN
-F 3 "" H 7150 4925 50  0001 C CNN
-	1    7150 4925
-	1    0    0    -1  
+P 7650 2625
+F 0 "DLS1" H 7650 2725 50  0000 C CNN
+F 1 "1N4148WS" H 7650 2525 50  0000 C CNN
+F 2 "" H 7650 2625 50  0001 C CNN
+F 3 "" H 7650 2625 50  0001 C CNN
+	1    7650 2625
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R RLS1
@@ -81,7 +81,7 @@ F 3 "" H 8325 5275 50  0001 C CNN
 	1    8325 5275
 	1    0    0    -1  
 $EndComp
-Text HLabel 6800 4925 0    60   Input ~ 0
+Text HLabel 7300 4975 0    60   Input ~ 0
 leftshiftrow1
 Text HLabel 7700 5475 3    60   Input ~ 0
 leftshift5V
@@ -158,13 +158,13 @@ Connection ~ 7650 4150
 $Comp
 L D DLS2
 U 1 1 592CD93C
-P 7150 5200
-F 0 "DLS2" H 7150 5300 50  0000 C CNN
-F 1 "1N4148WS" H 7150 5100 50  0000 C CNN
-F 2 "" H 7150 5200 50  0001 C CNN
-F 3 "" H 7150 5200 50  0001 C CNN
-	1    7150 5200
-	1    0    0    -1  
+P 8275 2625
+F 0 "DLS2" H 8275 2725 50  0000 C CNN
+F 1 "1N4148WS" H 8275 2525 50  0000 C CNN
+F 2 "" H 8275 2625 50  0001 C CNN
+F 3 "" H 8275 2625 50  0001 C CNN
+	1    8275 2625
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	8275 4725 8200 4725
@@ -182,12 +182,12 @@ Wire Wire Line
 Wire Wire Line
 	7675 4350 7375 4350
 Wire Wire Line
-	7675 4925 7675 3200
+	7675 3200 7675 4925
 Wire Wire Line
 	7375 3775 7675 3775
 Connection ~ 7675 4350
 Wire Wire Line
-	7675 3200 7375 3200
+	7375 3200 7675 3200
 Connection ~ 7675 3775
 Wire Wire Line
 	7525 3050 7700 3050
@@ -238,17 +238,21 @@ Wire Wire Line
 	7725 5100 8350 5100
 Connection ~ 7725 4875
 Connection ~ 8350 4875
-Text HLabel 6800 5200 0    60   Input ~ 0
+Text HLabel 7300 5050 0    60   Input ~ 0
 leftshiftrow2
 Wire Wire Line
-	7300 4925 7675 4925
+	7675 4925 7375 4925
+Wire Wire Line
+	7300 4975 7375 4975
+Wire Wire Line
+	7375 4975 7375 4925
 Wire Wire Line
 	7300 5050 8000 5050
 Wire Wire Line
 	8000 5050 8000 4925
-Text HLabel 8275 2775 1    60   Input ~ 0
+Text HLabel 8275 2475 1    60   Input ~ 0
 leftshiftcol2
-Text HLabel 7650 2775 1    60   Input ~ 0
+Text HLabel 7650 2475 1    60   Input ~ 0
 leftshiftcol1
 $Comp
 L MX-2.25U-FLIPPED K_LS1
@@ -261,11 +265,4 @@ F 3 "" H 7375 3000 60  0001 C CNN
 	1    7400 3025
 	1    0    0    -1  
 $EndComp
-Connection ~ 7375 4925
-Wire Wire Line
-	7300 5050 7300 5200
-Wire Wire Line
-	7000 5200 6800 5200
-Wire Wire Line
-	6800 4925 7000 4925
 $EndSCHEMATC
