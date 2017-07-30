@@ -84,53 +84,53 @@ F 3 "" H 3525 2750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Sheet
-S 9825 5725 1100 725 
+S 11825 5550 1100 725 
 U 5920EC51
 F0 "rightshift" 60
 F1 "rightshift.sch" 60
-F2 "rightshiftcol1" I L 9825 6000 60 
-F3 "rightshiftcol2" I L 9825 6100 60 
-F4 "rightshift5V" I L 9825 6200 60 
-F5 "rightshiftLEDGND" I L 9825 6300 60 
-F6 "rightshiftrow1" I L 9825 5800 60 
-F7 "rightshiftrow2" I L 9825 5900 60 
+F2 "rightshiftcol1" I L 11825 5825 60 
+F3 "rightshiftcol2" I L 11825 5925 60 
+F4 "rightshift5V" I L 11825 6025 60 
+F5 "rightshiftLEDGND" I L 11825 6125 60 
+F6 "rightshiftrow1" I L 11825 5625 60 
+F7 "rightshiftrow2" I L 11825 5725 60 
 $EndSheet
 $Sheet
-S 9525 6700 1425 675 
+S 11125 6675 1425 675 
 U 5921602E
 F0 "rightmods" 60
 F1 "rightmods.sch" 60
-F2 "rightmodsrow1" I L 9525 6750 60 
-F3 "rightmodsrow2" I L 9525 6850 60 
-F4 "rightmodsLEDGND" I L 9525 7350 60 
-F5 "rightmods5V" I L 9525 7250 60 
-F6 "rightmodscol3" I L 9525 7150 60 
-F7 "rightmodscol2" I L 9525 7050 60 
-F8 "rightmodscol1" I L 9525 6950 60 
+F2 "rightmodsrow1" I L 11125 6725 60 
+F3 "rightmodsrow2" I L 11125 6825 60 
+F4 "rightmodsLEDGND" I L 11125 7325 60 
+F5 "rightmods5V" I L 11125 7225 60 
+F6 "rightmodscol3" I L 11125 7125 60 
+F7 "rightmodscol2" I L 11125 7025 60 
+F8 "rightmodscol1" I L 11125 6925 60 
 $EndSheet
 $Sheet
-S 7575 6700 775  675 
+S 7525 6450 775  675 
 U 591D8AF0
 F0 "spacebar" 60
 F1 "spacebar.sch" 60
-F2 "spacebarLEDGND" I R 8350 7250 60 
-F3 "spacebar5V" I R 8350 7150 60 
-F4 "spacebarrow0" I R 8350 6750 60 
-F5 "spacebarrow1" I R 8350 6850 60 
-F6 "spacebarcol0" I R 8350 6950 60 
-F7 "spacebarcol1" I R 8350 7050 60 
+F2 "spacebarLEDGND" I R 8300 7000 60 
+F3 "spacebar5V" I R 8300 6900 60 
+F4 "spacebarrow0" I R 8300 6500 60 
+F5 "spacebarrow1" I R 8300 6600 60 
+F6 "spacebarcol0" I R 8300 6700 60 
+F7 "spacebarcol1" I R 8300 6800 60 
 $EndSheet
 $Sheet
-S 5675 6700 1275 675 
+S 4400 6375 1275 675 
 U 591D8C4D
 F0 "leftmods" 60
 F1 "leftmods.sch" 60
-F2 "leftmodscol1" I R 6950 6950 60 
-F3 "leftmodscol2" I R 6950 7050 60 
-F4 "leftmods5V" I R 6950 7150 60 
-F5 "leftmodsLEDGND" I R 6950 7250 60 
-F6 "leftmodsrow1" I R 6950 6750 60 
-F7 "leftmodsrow2" I R 6950 6850 60 
+F2 "leftmodscol1" I R 5675 6625 60 
+F3 "leftmodscol2" I R 5675 6725 60 
+F4 "leftmods5V" I R 5675 6825 60 
+F5 "leftmodsLEDGND" I R 5675 6925 60 
+F6 "leftmodsrow1" I R 5675 6425 60 
+F7 "leftmodsrow2" I R 5675 6525 60 
 $EndSheet
 Text GLabel 2350 2800 0    60   Input ~ 0
 LEDGND
@@ -146,41 +146,41 @@ F 3 "" H 3850 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Sheet
-S 5675 5800 875  600 
+S 3250 5650 875  600 
 U 59322ADE
 F0 "leftshift" 60
 F1 "leftshift.sch" 60
-F2 "leftshiftrow1" I R 6550 5850 60 
-F3 "leftshift5V" I R 6550 6250 60 
-F4 "leftshiftLEDGND" I R 6550 6350 60 
-F5 "leftshiftrow2" I R 6550 5950 60 
-F6 "leftshiftcol2" I R 6550 6150 60 
-F7 "leftshiftcol1" I R 6550 6050 60 
+F2 "leftshiftrow1" I R 4125 5700 60 
+F3 "leftshift5V" I R 4125 6100 60 
+F4 "leftshiftLEDGND" I R 4125 6200 60 
+F5 "leftshiftrow2" I R 4125 5800 60 
+F6 "leftshiftcol2" I R 4125 6000 60 
+F7 "leftshiftcol1" I R 4125 5900 60 
 $EndSheet
-Text GLabel 6550 6350 2    60   Input ~ 0
+Text GLabel 4125 6200 2    60   Input ~ 0
 LEDGND
 $Comp
 L +5V #PWR027
 U 1 1 593C4514
-P 6550 6250
-F 0 "#PWR027" H 6550 6100 50  0001 C CNN
-F 1 "+5V" H 6550 6390 50  0000 C CNN
-F 2 "" H 6550 6250 50  0001 C CNN
-F 3 "" H 6550 6250 50  0001 C CNN
-	1    6550 6250
+P 4125 6100
+F 0 "#PWR027" H 4125 5950 50  0001 C CNN
+F 1 "+5V" H 4125 6240 50  0000 C CNN
+F 2 "" H 4125 6100 50  0001 C CNN
+F 3 "" H 4125 6100 50  0001 C CNN
+	1    4125 6100
 	0    1    1    0   
 $EndComp
-Text GLabel 9825 6300 0    60   Input ~ 0
+Text GLabel 11825 6125 0    60   Input ~ 0
 LEDGND
 $Comp
 L +5V #PWR028
 U 1 1 5938990F
-P 9825 6200
-F 0 "#PWR028" H 9825 6050 50  0001 C CNN
-F 1 "+5V" H 9825 6340 50  0000 C CNN
-F 2 "" H 9825 6200 50  0000 C CNN
-F 3 "" H 9825 6200 50  0000 C CNN
-	1    9825 6200
+P 11825 6025
+F 0 "#PWR028" H 11825 5875 50  0001 C CNN
+F 1 "+5V" H 11825 6165 50  0000 C CNN
+F 2 "" H 11825 6025 50  0000 C CNN
+F 3 "" H 11825 6025 50  0000 C CNN
+	1    11825 6025
 	0    -1   -1   0   
 $EndComp
 Text GLabel 2250 2925 0    60   Input ~ 0
@@ -215,86 +215,86 @@ Text GLabel 11875 2250 1    60   Input ~ 0
 COL6
 Text GLabel 13275 2250 1    60   Input ~ 0
 COL7
-Text GLabel 6550 5850 2    60   Input ~ 0
+Text GLabel 4125 5700 2    60   Input ~ 0
 ROW6
-Text GLabel 6550 5950 2    60   Input ~ 0
+Text GLabel 4125 5800 2    60   Input ~ 0
 ROW7
-Text GLabel 6550 6050 2    60   Input ~ 0
+Text GLabel 4125 5900 2    60   Input ~ 0
 COL0
-Text GLabel 6550 6150 2    60   Input ~ 0
+Text GLabel 4125 6000 2    60   Input ~ 0
 COL1
-Text GLabel 6950 6750 2    60   Input ~ 0
+Text GLabel 5675 6425 2    60   Input ~ 0
 ROW8
-Text GLabel 6950 6850 2    60   Input ~ 0
+Text GLabel 5675 6525 2    60   Input ~ 0
 ROW9
-Text GLabel 6950 6950 2    60   Input ~ 0
+Text GLabel 5675 6625 2    60   Input ~ 0
 COL0
-Text GLabel 6950 7050 2    60   Input ~ 0
+Text GLabel 5675 6725 2    60   Input ~ 0
 COL1
-Text GLabel 6950 7250 2    60   Input ~ 0
+Text GLabel 5675 6925 2    60   Input ~ 0
 LEDGND
 $Comp
 L +5V #PWR029
 U 1 1 593550ED
-P 6950 7150
-F 0 "#PWR029" H 6950 7000 50  0001 C CNN
-F 1 "+5V" H 6950 7290 50  0000 C CNN
-F 2 "" H 6950 7150 50  0001 C CNN
-F 3 "" H 6950 7150 50  0001 C CNN
-	1    6950 7150
+P 5675 6825
+F 0 "#PWR029" H 5675 6675 50  0001 C CNN
+F 1 "+5V" H 5675 6965 50  0000 C CNN
+F 2 "" H 5675 6825 50  0001 C CNN
+F 3 "" H 5675 6825 50  0001 C CNN
+	1    5675 6825
 	0    1    1    0   
 $EndComp
-Text GLabel 9825 5800 0    60   Input ~ 0
+Text GLabel 11825 5625 0    60   Input ~ 0
 ROW6
-Text GLabel 9825 5900 0    60   Input ~ 0
+Text GLabel 11825 5725 0    60   Input ~ 0
 ROW7
-Text GLabel 9825 6100 0    60   Input ~ 0
+Text GLabel 11825 5925 0    60   Input ~ 0
 COL7
-Text GLabel 9825 6000 0    60   Input ~ 0
+Text GLabel 11825 5825 0    60   Input ~ 0
 COL6
-Text GLabel 9525 6750 0    60   Input ~ 0
+Text GLabel 11125 6725 0    60   Input ~ 0
 ROW8
-Text GLabel 9525 6850 0    60   Input ~ 0
+Text GLabel 11125 6825 0    60   Input ~ 0
 ROW9
-Text GLabel 9525 7150 0    60   Input ~ 0
+Text GLabel 11125 7125 0    60   Input ~ 0
 COL7
-Text GLabel 9525 7050 0    60   Input ~ 0
+Text GLabel 11125 7025 0    60   Input ~ 0
 COL6
-Text GLabel 9525 6950 0    60   Input ~ 0
+Text GLabel 11125 6925 0    60   Input ~ 0
 COL5
 $Comp
 L +5V #PWR030
 U 1 1 5934A30E
-P 9525 7250
-F 0 "#PWR030" H 9525 7100 50  0001 C CNN
-F 1 "+5V" H 9525 7390 50  0000 C CNN
-F 2 "" H 9525 7250 50  0000 C CNN
-F 3 "" H 9525 7250 50  0000 C CNN
-	1    9525 7250
+P 11125 7225
+F 0 "#PWR030" H 11125 7075 50  0001 C CNN
+F 1 "+5V" H 11125 7365 50  0000 C CNN
+F 2 "" H 11125 7225 50  0000 C CNN
+F 3 "" H 11125 7225 50  0000 C CNN
+	1    11125 7225
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9525 7350 0    60   Input ~ 0
+Text GLabel 11125 7325 0    60   Input ~ 0
 LEDGND
 $Comp
 L +5V #PWR031
 U 1 1 59310185
-P 8350 7150
-F 0 "#PWR031" H 8350 7000 50  0001 C CNN
-F 1 "+5V" H 8350 7290 50  0000 C CNN
-F 2 "" H 8350 7150 50  0000 C CNN
-F 3 "" H 8350 7150 50  0000 C CNN
-	1    8350 7150
+P 8300 6900
+F 0 "#PWR031" H 8300 6750 50  0001 C CNN
+F 1 "+5V" H 8300 7040 50  0000 C CNN
+F 2 "" H 8300 6900 50  0000 C CNN
+F 3 "" H 8300 6900 50  0000 C CNN
+	1    8300 6900
 	0    1    1    0   
 $EndComp
-Text GLabel 8350 7250 2    60   Input ~ 0
+Text GLabel 8300 7000 2    60   Input ~ 0
 LEDGND
-Text GLabel 8350 6750 2    60   Input ~ 0
+Text GLabel 8300 6500 2    60   Input ~ 0
 COL3
-Text GLabel 8350 6950 2    60   Input ~ 0
+Text GLabel 8300 6700 2    60   Input ~ 0
 ROW8
-Text GLabel 8350 6850 2    60   Input ~ 0
+Text GLabel 8300 6600 2    60   Input ~ 0
 COL4
-Text GLabel 8350 7050 2    60   Input ~ 0
+Text GLabel 8300 6800 2    60   Input ~ 0
 ROW9
 $Comp
 L MX-1U K_#1
