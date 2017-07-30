@@ -137,12 +137,12 @@ LEDGND
 $Comp
 L +5V #PWR026
 U 1 1 593478ED
-P 1775 1125
-F 0 "#PWR026" H 1775 975 50  0001 C CNN
-F 1 "+5V" H 1775 1265 50  0000 C CNN
-F 2 "" H 1775 1125 50  0001 C CNN
-F 3 "" H 1775 1125 50  0001 C CNN
-	1    1775 1125
+P 3850 1300
+F 0 "#PWR026" H 3850 1150 50  0001 C CNN
+F 1 "+5V" H 3850 1440 50  0000 C CNN
+F 2 "" H 3850 1300 50  0001 C CNN
+F 3 "" H 3850 1300 50  0001 C CNN
+	1    3850 1300
 	0    -1   -1   0   
 $EndComp
 $Sheet
@@ -2357,7 +2357,7 @@ Wire Wire Line
 Wire Wire Line
 	10975 4400 11075 4400
 Wire Wire Line
-	12575 2250 12575 3650
+	12575 2000 12575 3650
 Connection ~ 12575 3100
 Wire Wire Line
 	12575 2250 13275 2250
@@ -2450,15 +2450,11 @@ Connection ~ 4175 3650
 Wire Wire Line
 	3475 2550 3475 2250
 Wire Wire Line
-	3475 2250 2800 2250
-Wire Wire Line
-	2800 2250 2800 2525
-Wire Wire Line
 	13125 2800 13125 2700
 Wire Wire Line
 	2350 2800 13125 2800
 Wire Wire Line
-	12425 2800 12425 2700
+	12425 2150 12425 2800
 Wire Wire Line
 	11725 2800 11725 2700
 Connection ~ 12425 2800
@@ -2852,4 +2848,93 @@ Connection ~ 8575 4550
 Wire Wire Line
 	11375 4550 11375 4400
 Connection ~ 9975 4550
+Wire Wire Line
+	12375 2200 12375 2750
+Connection ~ 12425 2700
+Wire Wire Line
+	12525 2600 12525 2050
+Connection ~ 12575 2250
+Wire Wire Line
+	13650 1300 13650 3700
+Connection ~ 13650 3150
+Wire Wire Line
+	3850 1300 13650 1300
+Wire Wire Line
+	12950 1300 12950 3700
+Connection ~ 13650 2600
+Connection ~ 12950 2600
+Connection ~ 12950 3150
+Wire Wire Line
+	12250 1300 12250 3700
+Connection ~ 12950 1300
+Connection ~ 12250 2600
+Connection ~ 12250 3150
+Wire Wire Line
+	11550 1300 11550 4250
+Connection ~ 12250 1300
+Connection ~ 11550 2600
+Connection ~ 11550 3150
+Connection ~ 11550 3700
+Wire Wire Line
+	10850 1300 10850 4250
+Connection ~ 11550 1300
+Connection ~ 10850 2600
+Connection ~ 10850 3150
+Connection ~ 10850 3700
+Wire Wire Line
+	10150 1300 10150 4250
+Connection ~ 10850 1300
+Connection ~ 10150 2600
+Connection ~ 10150 3150
+Connection ~ 10150 3700
+Wire Wire Line
+	9450 1300 9450 4250
+Connection ~ 10150 1300
+Connection ~ 9450 2600
+Connection ~ 9450 3150
+Connection ~ 9450 3700
+Wire Wire Line
+	8750 1300 8750 4250
+Connection ~ 9450 1300
+Connection ~ 8750 2600
+Connection ~ 8750 3150
+Connection ~ 8750 3700
+Wire Wire Line
+	8050 1300 8050 4250
+Connection ~ 8750 1300
+Connection ~ 8050 2600
+Connection ~ 8050 3150
+Connection ~ 8050 3700
+Wire Wire Line
+	7350 1300 7350 4250
+Connection ~ 8050 1300
+Connection ~ 7350 2600
+Connection ~ 7350 3150
+Connection ~ 7350 3700
+Wire Wire Line
+	6650 1300 6650 4250
+Connection ~ 7350 1300
+Connection ~ 6650 2600
+Connection ~ 6650 3150
+Connection ~ 6650 3700
+Wire Wire Line
+	5950 1300 5950 4250
+Connection ~ 6650 1300
+Connection ~ 5950 2600
+Connection ~ 5950 3150
+Connection ~ 5950 3700
+Wire Wire Line
+	5250 1300 5250 4250
+Connection ~ 5950 1300
+Connection ~ 5250 2600
+Connection ~ 5250 3150
+Connection ~ 5250 3700
+Wire Wire Line
+	4550 1300 4550 3700
+Connection ~ 5250 1300
+Connection ~ 4550 2600
+Connection ~ 4550 3150
+Wire Wire Line
+	3850 2600 3850 1300
+Connection ~ 4550 1300
 $EndSCHEMATC
