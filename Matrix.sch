@@ -132,7 +132,7 @@ F5 "leftmodsLEDGND" I R 5675 6925 60
 F6 "leftmodsrow1" I R 5675 6425 60 
 F7 "leftmodsrow2" I R 5675 6525 60 
 $EndSheet
-Text GLabel 1075 2525 0    60   Input ~ 0
+Text GLabel 2350 2800 0    60   Input ~ 0
 LEDGND
 $Comp
 L +5V #PWR026
@@ -2456,7 +2456,7 @@ Wire Wire Line
 Wire Wire Line
 	13125 2800 13125 2700
 Wire Wire Line
-	4025 2800 13125 2800
+	2350 2800 13125 2800
 Wire Wire Line
 	12425 2800 12425 2700
 Wire Wire Line
@@ -2498,7 +2498,7 @@ Connection ~ 4725 2800
 Wire Wire Line
 	13125 3350 13125 3250
 Wire Wire Line
-	4025 3350 13125 3350
+	2350 3350 13125 3350
 Wire Wire Line
 	12425 3350 12425 3250
 Wire Wire Line
@@ -2537,4 +2537,132 @@ Connection ~ 5425 3350
 Wire Wire Line
 	4025 3350 4025 3250
 Connection ~ 4725 3350
+Wire Wire Line
+	13125 3900 13125 3800
+Wire Wire Line
+	2350 3900 13125 3900
+Wire Wire Line
+	12425 3900 12425 3800
+Wire Wire Line
+	11725 3900 11725 3800
+Connection ~ 12425 3900
+Wire Wire Line
+	11025 3900 11025 3800
+Connection ~ 11725 3900
+Wire Wire Line
+	10325 3900 10325 3800
+Connection ~ 11025 3900
+Wire Wire Line
+	9625 3900 9625 3800
+Connection ~ 10325 3900
+Wire Wire Line
+	8925 3900 8925 3800
+Connection ~ 9625 3900
+Wire Wire Line
+	8225 3900 8225 3800
+Connection ~ 8925 3900
+Wire Wire Line
+	7525 3900 7525 3800
+Connection ~ 8225 3900
+Wire Wire Line
+	6825 3900 6825 3800
+Connection ~ 7525 3900
+Wire Wire Line
+	6125 3900 6125 3800
+Connection ~ 6825 3900
+Wire Wire Line
+	5425 3900 5425 3800
+Connection ~ 6125 3900
+Wire Wire Line
+	4725 3900 4725 3800
+Connection ~ 5425 3900
+Wire Wire Line
+	4025 3800 4025 4350
+Connection ~ 4725 3900
+Wire Wire Line
+	11025 4350 11025 4900
+Wire Wire Line
+	2350 4450 11025 4450
+Wire Wire Line
+	10325 4350 10325 4900
+Wire Wire Line
+	9625 4350 9625 4900
+Connection ~ 10325 4450
+Wire Wire Line
+	8925 4350 8925 4900
+Connection ~ 9625 4450
+Wire Wire Line
+	8225 4350 8225 4900
+Connection ~ 8925 4450
+Wire Wire Line
+	7525 4350 7525 4900
+Connection ~ 8225 4450
+Wire Wire Line
+	6825 4350 6825 4900
+Connection ~ 7525 4450
+Wire Wire Line
+	6125 4350 6125 4900
+Connection ~ 6825 4450
+Wire Wire Line
+	5425 4350 5425 4900
+Connection ~ 6125 4450
+Wire Wire Line
+	4725 4350 4725 4900
+Connection ~ 5425 4450
+Wire Wire Line
+	3975 4400 3975 3850
+Connection ~ 4025 3900
+Wire Wire Line
+	4125 3700 4125 4250
+Wire Wire Line
+	4675 4400 4675 4950
+Connection ~ 4725 4450
+Wire Wire Line
+	4825 4250 4825 4800
+Wire Wire Line
+	5375 4400 5375 4950
+Wire Wire Line
+	5525 4250 5525 4800
+Wire Wire Line
+	6075 4950 6075 4400
+Wire Wire Line
+	6225 4250 6225 4800
+Wire Wire Line
+	6775 4950 6775 4400
+Wire Wire Line
+	6925 4250 6925 4800
+Wire Wire Line
+	7475 4950 7475 4400
+Wire Wire Line
+	7625 4250 7625 4800
+Wire Wire Line
+	8175 4950 8175 4400
+Wire Wire Line
+	8325 4250 8325 4800
+Wire Wire Line
+	9025 4250 9025 4800
+Wire Wire Line
+	8875 4950 8875 4400
+Wire Wire Line
+	9575 4950 9575 4400
+Wire Wire Line
+	9725 4250 9725 4800
+Wire Wire Line
+	10275 4950 10275 4400
+Wire Wire Line
+	10425 4250 10425 4800
+Wire Wire Line
+	10975 4950 10975 4400
+Connection ~ 11025 4450
+Wire Wire Line
+	11125 4250 11125 4800
+Wire Wire Line
+	3325 2800 3325 2700
+Connection ~ 4025 2800
+Wire Wire Line
+	2350 2800 2350 4450
+Connection ~ 4025 3350
+Connection ~ 3325 2800
+Connection ~ 2350 3350
+Connection ~ 2350 3900
 $EndSCHEMATC
