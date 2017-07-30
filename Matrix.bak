@@ -2450,10 +2450,6 @@ Connection ~ 4175 3650
 Wire Wire Line
 	3475 2550 3475 2250
 Wire Wire Line
-	3475 2250 2800 2250
-Wire Wire Line
-	2800 2250 2800 2525
-Wire Wire Line
 	13125 2800 13125 2700
 Wire Wire Line
 	2350 2800 13125 2800
