@@ -90,40 +90,29 @@ F 3 "" H 5325 5250 60  0001 C CNN
 	1    5350 5275
 	1    0    0    -1  
 $EndComp
-Text HLabel 4175 6600 0    60   Input ~ 0
+Text HLabel 3625 6275 0    60   Input ~ 0
 leftmodsrow1
 $Comp
 L D DLM1
 U 1 1 591D216C
-P 4500 3725
-F 0 "DLM1" H 4500 3825 50  0000 C CNN
-F 1 "1N4148WS" H 4500 3625 50  0000 C CNN
-F 2 "" H 4500 3725 50  0001 C CNN
-F 3 "" H 4500 3725 50  0000 C CNN
-	1    4500 3725
-	0    -1   -1   0   
+P 3775 6275
+F 0 "DLM1" H 3775 6375 50  0000 C CNN
+F 1 "1N4148WS" H 3775 6175 50  0000 C CNN
+F 2 "" H 3775 6275 50  0001 C CNN
+F 3 "" H 3775 6275 50  0000 C CNN
+	1    3775 6275
+	1    0    0    -1  
 $EndComp
 $Comp
 L D DLM2
 U 1 1 591D28A1
-P 5050 3725
-F 0 "DLM2" H 5050 3825 50  0000 C CNN
-F 1 "1N4148WS" H 5050 3625 50  0000 C CNN
-F 2 "" H 5050 3725 50  0001 C CNN
-F 3 "" H 5050 3725 50  0000 C CNN
-	1    5050 3725
-	0    -1   -1   0   
-$EndComp
-$Comp
-L D DLM3
-U 1 1 591D2AA8
-P 5600 3725
-F 0 "DLM3" H 5600 3825 50  0000 C CNN
-F 1 "1N4148WS" H 5600 3625 50  0000 C CNN
-F 2 "" H 5600 3725 50  0001 C CNN
-F 3 "" H 5600 3725 50  0000 C CNN
-	1    5600 3725
-	0    -1   -1   0   
+P 3775 6675
+F 0 "DLM2" H 3775 6775 50  0000 C CNN
+F 1 "1N4148WS" H 3775 6575 50  0000 C CNN
+F 2 "" H 3775 6675 50  0001 C CNN
+F 3 "" H 3775 6675 50  0000 C CNN
+	1    3775 6675
+	1    0    0    -1  
 $EndComp
 Text HLabel 4500 3575 1    60   Input ~ 0
 leftmodscol1
@@ -166,7 +155,7 @@ Text HLabel 5725 6550 2    60   Input ~ 0
 leftmodsLEDGND
 Text HLabel 5100 7150 3    60   Input ~ 0
 leftmods5V
-Text HLabel 4175 6650 0    60   Input ~ 0
+Text HLabel 3625 6675 0    60   Input ~ 0
 leftmodsrow2
 $Comp
 L MX-1.25U K_LM3
@@ -341,13 +330,13 @@ Wire Wire Line
 Wire Wire Line
 	4500 5250 4425 5250
 Wire Wire Line
-	4500 3875 4500 5250
+	4500 3575 4500 5250
 Wire Wire Line
 	4425 4675 4500 4675
 Wire Wire Line
 	5600 5250 5525 5250
 Wire Wire Line
-	5600 3875 5600 6400
+	5600 3575 5600 6400
 Wire Wire Line
 	5525 4675 5600 4675
 Connection ~ 5050 4675
@@ -356,16 +345,16 @@ Wire Wire Line
 Wire Wire Line
 	5050 4675 4975 4675
 Wire Wire Line
-	5050 3875 5050 6400
+	5050 3575 5050 6400
 Wire Wire Line
 	4975 4100 5050 4100
 Wire Wire Line
 	5325 6650 5325 6600
 Wire Wire Line
-	4175 6650 5625 6650
+	3925 6650 5625 6650
 Connection ~ 4225 6650
 Wire Wire Line
-	4175 6600 5075 6600
+	3925 6600 5075 6600
 Connection ~ 5075 6025
 Connection ~ 4775 6600
 Wire Wire Line
@@ -404,4 +393,8 @@ Connection ~ 5625 6025
 Wire Wire Line
 	5375 5975 5675 5975
 Connection ~ 5675 5975
+Wire Wire Line
+	3925 6275 3925 6600
+Wire Wire Line
+	3925 6675 3925 6650
 $EndSCHEMATC
