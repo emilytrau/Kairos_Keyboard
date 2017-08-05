@@ -10,3 +10,6 @@
 [submodule "keyboard_parts.pretty"]
 	path = keyboard_parts.pretty
 	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "Molex-0548190589.pretty"]
+	path = Molex-0548190589.pretty
+	url = https://github.com/ai03-2725/Molex-0548190589.pretty
