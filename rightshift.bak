@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:MX_Alps_Hybrids
 LIBS:ws2812b
 LIBS:keyboard_parts
+LIBS:Molex-0548190589
 LIBS:Kairos-cache
 EELAYER 25 0
 EELAYER END
