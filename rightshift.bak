@@ -149,11 +149,7 @@ $EndComp
 Wire Wire Line
 	4975 2225 5050 2225
 Wire Wire Line
-	5050 2000 5050 2225
-Wire Wire Line
-	5050 2225 5050 2800
-Wire Wire Line
-	5050 2800 5050 3375
+	5050 1700 5050 3375
 Wire Wire Line
 	5050 2800 4975 2800
 Wire Wire Line
@@ -162,11 +158,7 @@ Connection ~ 5050 2800
 Wire Wire Line
 	5500 2225 5575 2225
 Wire Wire Line
-	5575 2000 5575 2225
-Wire Wire Line
-	5575 2225 5575 2800
-Wire Wire Line
-	5575 2800 5575 3375
+	5575 1700 5575 3375
 Wire Wire Line
 	5575 2800 5500 2800
 Wire Wire Line
@@ -175,11 +167,7 @@ Connection ~ 5575 2800
 Wire Wire Line
 	6025 2225 6100 2225
 Wire Wire Line
-	6100 2000 6100 2225
-Wire Wire Line
-	6100 2225 6100 2800
-Wire Wire Line
-	6100 2800 6100 3375
+	6100 1700 6100 3375
 Wire Wire Line
 	6100 2800 6025 2800
 Wire Wire Line
@@ -188,9 +176,7 @@ Connection ~ 6100 2800
 Wire Wire Line
 	4775 2425 5075 2425
 Wire Wire Line
-	5075 2425 5075 3000
-Wire Wire Line
-	5075 3000 5075 3625
+	5075 2425 5075 3625
 Wire Wire Line
 	5075 3000 4775 3000
 Wire Wire Line
@@ -199,18 +185,14 @@ Connection ~ 5075 3000
 Wire Wire Line
 	5300 2425 5600 2425
 Wire Wire Line
-	5600 2425 5600 3000
-Wire Wire Line
-	5600 3000 5600 3575
+	5600 2425 5600 3575
 Wire Wire Line
 	5600 3000 5300 3000
 Connection ~ 5600 3000
 Wire Wire Line
 	5825 2425 6125 2425
 Wire Wire Line
-	6125 2425 6125 3000
-Wire Wire Line
-	6125 3000 6125 3625
+	6125 2425 6125 3625
 Wire Wire Line
 	6125 3000 5825 3000
 Connection ~ 6125 3000
@@ -219,11 +201,7 @@ Connection ~ 5600 3575
 Wire Wire Line
 	4925 2275 5100 2275
 Wire Wire Line
-	5100 2275 5100 2850
-Wire Wire Line
-	5100 2850 5100 3425
-Wire Wire Line
-	5100 3425 5100 4850
+	5100 2275 5100 4850
 Wire Wire Line
 	5100 2850 4925 2850
 Wire Wire Line
@@ -232,11 +210,7 @@ Connection ~ 5100 2850
 Wire Wire Line
 	5450 2275 5625 2275
 Wire Wire Line
-	5625 2275 5625 2850
-Wire Wire Line
-	5625 2850 5625 3425
-Wire Wire Line
-	5625 3425 5625 4850
+	5625 2275 5625 4850
 Wire Wire Line
 	5625 2850 5450 2850
 Wire Wire Line
@@ -245,11 +219,7 @@ Connection ~ 5625 2850
 Wire Wire Line
 	5975 2275 6150 2275
 Wire Wire Line
-	6150 2275 6150 2850
-Wire Wire Line
-	6150 2850 6150 3425
-Wire Wire Line
-	6150 3425 6150 4850
+	6150 2275 6150 4850
 Wire Wire Line
 	6150 2850 5975 2850
 Wire Wire Line
@@ -258,39 +228,23 @@ Connection ~ 6150 2850
 Wire Wire Line
 	4825 2375 5125 2375
 Wire Wire Line
-	5125 2375 5125 2950
-Wire Wire Line
-	5125 2950 5125 3525
+	5125 2375 5125 3525
 Wire Wire Line
 	5125 2950 4825 2950
 Wire Wire Line
-	4825 3525 5125 3525
-Wire Wire Line
-	5125 3525 5350 3525
-Wire Wire Line
-	5350 3525 5650 3525
-Wire Wire Line
-	5650 3525 5875 3525
-Wire Wire Line
-	5875 3525 6175 3525
-Wire Wire Line
-	6175 3525 6200 3525
+	4825 3525 6200 3525
 Connection ~ 5125 2950
 Wire Wire Line
 	5350 2375 5650 2375
 Wire Wire Line
-	5650 2375 5650 2950
-Wire Wire Line
-	5650 2950 5650 3525
+	5650 2375 5650 3525
 Wire Wire Line
 	5650 2950 5350 2950
 Connection ~ 5650 2950
 Wire Wire Line
 	5875 2375 6175 2375
 Wire Wire Line
-	6175 2375 6175 2950
-Wire Wire Line
-	6175 2950 6175 3525
+	6175 2375 6175 3525
 Wire Wire Line
 	6175 2950 5875 2950
 Connection ~ 6175 2950
@@ -377,9 +331,7 @@ Connection ~ 5100 3425
 Connection ~ 5625 3425
 Connection ~ 6150 3425
 Wire Wire Line
-	5100 5150 5625 5150
-Wire Wire Line
-	5625 5150 6150 5150
+	5100 5150 6150 5150
 Connection ~ 5625 5150
 Text HLabel 5625 5175 3    60   Input ~ 0
 rightshift5V
@@ -393,17 +345,13 @@ rightshiftrow2
 Wire Wire Line
 	5575 1700 6100 1700
 Wire Wire Line
-	4775 3575 4775 3625
-Wire Wire Line
-	4775 3625 4775 3725
+	4775 3575 4775 3725
 Wire Wire Line
 	6125 3625 5825 3625
 Wire Wire Line
 	5075 3625 4775 3625
 Wire Wire Line
-	5825 3575 5825 3625
-Wire Wire Line
-	5825 3625 5825 3725
+	5825 3575 5825 3725
 Connection ~ 4775 3625
 Connection ~ 5075 3625
 Connection ~ 5825 3625
@@ -416,9 +364,7 @@ Wire Wire Line
 Wire Wire Line
 	4775 4025 4775 4200
 Wire Wire Line
-	4600 4200 4775 4200
-Wire Wire Line
-	4775 4200 5825 4200
+	4600 4200 5825 4200
 Wire Wire Line
 	5825 4200 5825 4025
 Connection ~ 4775 4200
