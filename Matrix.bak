@@ -2264,7 +2264,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 3700 4125 3700
 Wire Wire Line
-	3975 3850 4075 3850
+	3875 3850 4075 3850
 Wire Wire Line
 	4950 3700 4825 3700
 Wire Wire Line
@@ -2443,7 +2443,7 @@ Connection ~ 4875 3100
 Wire Wire Line
 	4875 2250 4175 2250
 Wire Wire Line
-	4175 2250 4175 4200
+	4175 2250 4175 4050
 Connection ~ 4875 2550
 Connection ~ 4175 2550
 Connection ~ 4175 3100
@@ -2606,8 +2606,6 @@ Connection ~ 6125 4450
 Wire Wire Line
 	4725 4350 4725 4900
 Connection ~ 5425 4450
-Wire Wire Line
-	3975 4400 3975 3850
 Connection ~ 4025 3900
 Wire Wire Line
 	4125 3700 4125 4250
@@ -2960,4 +2958,13 @@ F 3 "" H 13075 4750 60  0001 C CNN
 	1    13100 4775
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4175 4050 3975 4050
+Wire Wire Line
+	3975 4050 3975 4400
+Wire Wire Line
+	4175 4200 3875 4200
+Wire Wire Line
+	3875 4200 3875 3850
+Connection ~ 3975 3850
 $EndSCHEMATC
