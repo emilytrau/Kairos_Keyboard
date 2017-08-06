@@ -3,7 +3,7 @@
   (general
     (links 628)
     (no_connects 345)
-    (area 0 0 0 0)
+    (area -43.137501 17.44 423.575892 314.600001)
     (thickness 1.6)
     (drawings 4)
     (tracks 278)
@@ -640,7 +640,7 @@
     (pad "" np_thru_hole circle (at 47.625 -8.255 180) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
   )
 
-  (module local__lib:60_Outline (layer F.Cu) (tedit 5948B7B6) (tstamp 59489B29)
+  (module local__lib:60_Outline locked (layer F.Cu) (tedit 5948B7B6) (tstamp 59489B29)
     (at 147.6375 69.05625)
     (fp_text reference REF** (at -139 50.5) (layer Edge.Cuts) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3028,7 +3028,7 @@
     (pad "" np_thru_hole circle (at 5.08 0 48.0996) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask))
   )
 
-  (module MX_Alps_Hybrid:MX-1U locked (layer F.Cu) (tedit 59782D32) (tstamp 59463EC0)
+  (module MX_Alps_Hybrid:MX-1U (layer F.Cu) (tedit 59782D32) (tstamp 59463EC0)
     (at 204.7875 130.96875)
     (path /5919C979/597EB0A0)
     (fp_text reference K_.2 (at 0 3.175) (layer F.SilkS)
