@@ -184,17 +184,6 @@ F 3 "" H 5125 4450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX-7U K_SP1
-U 1 1 594AF20B
-P 5125 5525
-F 0 "K_SP1" H 5125 5650 60  0000 C CNN
-F 1 "MX-7U" H 5125 5575 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-7U-ReversedStabilizers" H 5100 5500 60  0001 C CNN
-F 3 "" H 5100 5500 60  0001 C CNN
-	1    5125 5525
-	1    0    0    -1  
-$EndComp
-$Comp
 L MX-7U K_SP3
 U 1 1 594AF603
 P 5125 6050
