@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Ryota/Documents/GitHub/Kairos_Keyboard/Kairos.sch)
-    (date "8/7/2017 12:19:00 AM")
+    (date "8/7/2017 12:21:07 AM")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -546,7 +546,7 @@
       (tstamp 597E005C))
     (comp (ref K_TAB1)
       (value MX-1.5U)
-      (footprint MX_Alps_Hybrid:MX-1U)
+      (footprint MX_Alps_Hybrid:MX-1.5U)
       (libsource (lib MX_Alps_Hybrids) (part MX-1.5U))
       (sheetpath (names /Matrix/) (tstamps /5919C979/))
       (tstamp 597E3B65))
@@ -754,7 +754,7 @@
       (tstamp 597E3C61))
     (comp (ref K_\1)
       (value MX-1.5U)
-      (footprint MX_Alps_Hybrid:MX-1U)
+      (footprint MX_Alps_Hybrid:MX-1.5U)
       (libsource (lib MX_Alps_Hybrids) (part MX-1.5U))
       (sheetpath (names /Matrix/) (tstamps /5919C979/))
       (tstamp 597E3C69))
