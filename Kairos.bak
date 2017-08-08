@@ -990,13 +990,9 @@ Wire Wire Line
 Wire Wire Line
 	4150 2550 4350 2550
 Wire Wire Line
-	6200 5250 7850 5250
+	6200 5750 8450 5750
 Wire Wire Line
-	7850 5550 6200 5550
-Wire Wire Line
-	6200 5750 7850 5750
-Wire Wire Line
-	7850 6050 6200 6050
+	6200 6050 8450 6050
 Wire Wire Line
 	3850 1400 3850 1500
 Wire Wire Line
@@ -1102,4 +1098,54 @@ Wire Wire Line
 	11650 8225 11600 8225
 Connection ~ 11650 7250
 NoConn ~ 10600 8225
+$Comp
+L C CR13
+U 1 1 598A73FE
+P 8150 5900
+F 0 "CR13" H 8175 6000 50  0000 L CNN
+F 1 "100nF" H 8175 5800 50  0000 L CNN
+F 2 "" H 8188 5750 50  0001 C CNN
+F 3 "" H 8150 5900 50  0001 C CNN
+	1    8150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C CR14
+U 1 1 598A74A6
+P 8450 5900
+F 0 "CR14" H 8475 6000 50  0000 L CNN
+F 1 "100nF" H 8475 5800 50  0000 L CNN
+F 2 "" H 8488 5750 50  0001 C CNN
+F 3 "" H 8450 5900 50  0001 C CNN
+	1    8450 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 8150 5750
+Connection ~ 7850 5750
+Connection ~ 7850 6050
+Connection ~ 8150 6050
+Connection ~ 7550 5750
+Connection ~ 7250 5750
+Connection ~ 6350 5750
+Connection ~ 6950 5750
+Connection ~ 6650 5750
+Connection ~ 7550 6050
+Connection ~ 7250 6050
+Connection ~ 6950 6050
+Connection ~ 6650 6050
+Connection ~ 6350 6050
+Wire Wire Line
+	6200 5550 7850 5550
+Connection ~ 6350 5550
+Connection ~ 6650 5550
+Connection ~ 6950 5550
+Connection ~ 7250 5550
+Connection ~ 7550 5550
+Wire Wire Line
+	6200 5250 7850 5250
+Connection ~ 7550 5250
+Connection ~ 7250 5250
+Connection ~ 6950 5250
+Connection ~ 6650 5250
+Connection ~ 6350 5250
 $EndSCHEMATC
