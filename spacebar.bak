@@ -164,7 +164,7 @@ $EndComp
 Wire Wire Line
 	5325 1300 5475 1300
 Wire Wire Line
-	5475 1300 5475 6600
+	5475 6600 5475 1300
 Wire Wire Line
 	5475 1825 5325 1825
 Wire Wire Line
@@ -260,7 +260,7 @@ Connection ~ 4975 3450
 Wire Wire Line
 	4675 2025 4925 2025
 Wire Wire Line
-	4925 2025 4925 6450
+	4925 2025 4925 6100
 Wire Wire Line
 	4925 2550 4675 2550
 Wire Wire Line
@@ -272,7 +272,7 @@ Connection ~ 4925 3600
 Wire Wire Line
 	5125 1500 5375 1500
 Wire Wire Line
-	5375 1500 5375 6525
+	5375 1500 5375 6225
 Wire Wire Line
 	5375 2025 5125 2025
 Wire Wire Line
@@ -296,13 +296,11 @@ Connection ~ 5375 4650
 Wire Wire Line
 	5375 5700 5100 5700
 Connection ~ 5375 5175
-Wire Wire Line
-	5375 6225 5100 6225
 Connection ~ 5375 5700
 Wire Wire Line
 	5575 2025 5825 2025
 Wire Wire Line
-	5825 2025 5825 6450
+	5825 6450 5825 2025
 Wire Wire Line
 	5825 2550 5575 2550
 Wire Wire Line
@@ -316,7 +314,7 @@ Wire Wire Line
 	6025 1450 6025 6175
 Connection ~ 5625 2500
 Wire Wire Line
-	6025 3025 5175 3025
+	5175 3025 6025 3025
 Connection ~ 6025 2500
 Wire Wire Line
 	4725 3550 6025 3550
@@ -379,7 +377,6 @@ Connection ~ 5425 775
 Connection ~ 5875 775 
 Connection ~ 5025 3925
 Connection ~ 4925 4125
-Connection ~ 5375 6225
 Connection ~ 5475 6025
 Connection ~ 5825 2550
 Connection ~ 5925 2350
@@ -392,12 +389,12 @@ spacebarcol0
 Text HLabel 4875 6675 0    60   Input ~ 0
 spacebarcol1
 Wire Wire Line
-	5475 6600 4875 6600
+	4875 6600 5475 6600
 Connection ~ 5025 6600
 Wire Wire Line
 	5925 6675 4875 6675
 Wire Wire Line
-	5825 6450 4875 6450
+	4875 6450 5825 6450
 Wire Wire Line
 	5375 6525 4875 6525
 Connection ~ 4925 6450
@@ -455,4 +452,30 @@ F 3 "" H 5575 2875 60  0001 C CNN
 	1    5600 2900
 	1    0    0    -1  
 $EndComp
+$Comp
+L D DSP2
+U 1 1 598AB65E
+P 5375 6375
+F 0 "DSP2" H 5375 6475 50  0000 C CNN
+F 1 "1N4148WS" H 5375 6275 50  0000 C CNN
+F 2 "" H 5375 6375 50  0001 C CNN
+F 3 "" H 5375 6375 50  0001 C CNN
+	1    5375 6375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D DSP1
+U 1 1 598AB897
+P 4925 6250
+F 0 "DSP1" H 4925 6350 50  0000 C CNN
+F 1 "1N4148WS" H 4925 6150 50  0000 C CNN
+F 2 "" H 4925 6250 50  0001 C CNN
+F 3 "" H 4925 6250 50  0001 C CNN
+	1    4925 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4925 6450 4925 6400
+Wire Wire Line
+	5375 6225 5100 6225
 $EndSCHEMATC
