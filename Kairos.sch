@@ -1156,4 +1156,30 @@ Wire Wire Line
 	5100 2650 5100 1200
 Wire Wire Line
 	5100 1200 4600 1200
+Text GLabel 4150 3250 2    60   Input ~ 0
+ROW2
+Text GLabel 4150 3350 2    60   Input ~ 0
+ROW3
+Text GLabel 4150 3950 2    60   Input ~ 0
+ROW9
+Text GLabel 4150 4050 2    60   Input ~ 0
+ROW8
+Text GLabel 4150 4150 2    60   Input ~ 0
+ROW7
+Text GLabel 4150 2550 2    60   Input ~ 0
+ROW6
+Text GLabel 4150 2450 2    60   Input ~ 0
+ROW5
+Text GLabel 4150 2350 2    60   Input ~ 0
+ROW4
+Text GLabel 4150 2250 2    60   Input ~ 0
+COL3
+Text GLabel 4150 2150 2    60   Input ~ 0
+COL4
+Text GLabel 4150 2050 2    60   Input ~ 0
+COL5
+Text GLabel 4150 1950 2    60   Input ~ 0
+COL6
+Text GLabel 4150 3450 2    60   Input ~ 0
+COL7
 $EndSCHEMATC
