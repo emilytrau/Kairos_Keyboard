@@ -488,8 +488,6 @@ F 3 "" H 11650 1950 50  0001 C CNN
 $EndComp
 Text GLabel 9750 1750 0    60   Input ~ 0
 RGBLED
-Text GLabel 4350 2550 2    60   Input ~ 0
-RGBLED
 Text GLabel 800  3450 0    60   Input ~ 0
 DP
 Text GLabel 800  3550 0    60   Input ~ 0
@@ -763,13 +761,13 @@ NoConn ~ 1150 4600
 $Comp
 L R R5
 U 1 1 59512333
-P 4250 1700
-F 0 "R5" V 4330 1700 50  0000 C CNN
-F 1 "1.5k" V 4250 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4180 1700 50  0001 C CNN
-F 3 "" H 4250 1700 50  0001 C CNN
-	1    4250 1700
-	1    0    0    -1  
+P 4450 1200
+F 0 "R5" V 4530 1200 50  0000 C CNN
+F 1 "1.5k" V 4450 1200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4380 1200 50  0001 C CNN
+F 3 "" H 4450 1200 50  0001 C CNN
+	1    4450 1200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Crystal_GND24 Y1
@@ -836,9 +834,9 @@ Wire Wire Line
 	850  2700 750  2700
 Connection ~ 850  2700
 Wire Wire Line
-	4150 2650 4250 2650
+	4150 2650 5100 2650
 Wire Wire Line
-	4250 1200 4150 1200
+	4150 1200 4300 1200
 Wire Wire Line
 	3850 1000 3850 900 
 Wire Wire Line
@@ -988,8 +986,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 1750 9750 1750
 Wire Wire Line
-	4150 2550 4350 2550
-Wire Wire Line
 	6200 5750 8450 5750
 Wire Wire Line
 	6200 6050 8450 6050
@@ -1005,10 +1001,6 @@ Wire Wire Line
 Connection ~ 1900 2350
 Wire Wire Line
 	1300 2150 1250 2150
-Wire Wire Line
-	4250 1200 4250 1550
-Wire Wire Line
-	4250 2650 4250 1850
 Wire Wire Line
 	1250 2550 1950 2550
 Connection ~ 1550 2550
@@ -1148,4 +1140,20 @@ Connection ~ 7250 5250
 Connection ~ 6950 5250
 Connection ~ 6650 5250
 Connection ~ 6350 5250
+Text GLabel 4150 3750 2    60   Input ~ 0
+COL1
+Text GLabel 4150 3850 2    60   Input ~ 0
+COL0
+Text GLabel 4150 2850 2    60   Input ~ 0
+COL2
+Text GLabel 4150 2950 2    60   Input ~ 0
+ROW0
+Text GLabel 4150 3050 2    60   Input ~ 0
+ROW1
+Text GLabel 4150 3150 2    60   Input ~ 0
+RGBLED
+Wire Wire Line
+	5100 2650 5100 1200
+Wire Wire Line
+	5100 1200 4600 1200
 $EndSCHEMATC

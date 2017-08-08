@@ -488,8 +488,6 @@ F 3 "" H 11650 1950 50  0001 C CNN
 $EndComp
 Text GLabel 9750 1750 0    60   Input ~ 0
 RGBLED
-Text GLabel 4350 2550 2    60   Input ~ 0
-RGBLED
 Text GLabel 800  3450 0    60   Input ~ 0
 DP
 Text GLabel 800  3550 0    60   Input ~ 0
@@ -988,8 +986,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 1750 9750 1750
 Wire Wire Line
-	4150 2550 4350 2550
-Wire Wire Line
 	6200 5750 8450 5750
 Wire Wire Line
 	6200 6050 8450 6050
@@ -1148,4 +1144,16 @@ Connection ~ 7250 5250
 Connection ~ 6950 5250
 Connection ~ 6650 5250
 Connection ~ 6350 5250
+Text GLabel 4150 3750 2    60   Input ~ 0
+COL1
+Text GLabel 4150 3850 2    60   Input ~ 0
+COL0
+Text GLabel 4150 2850 2    60   Input ~ 0
+COL2
+Text GLabel 4150 2950 2    60   Input ~ 0
+ROW0
+Text GLabel 4150 3050 2    60   Input ~ 0
+ROW1
+Text GLabel 4150 3150 2    60   Input ~ 0
+RGBLED
 $EndSCHEMATC
