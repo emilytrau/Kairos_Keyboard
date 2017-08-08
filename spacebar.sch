@@ -242,7 +242,7 @@ Connection ~ 5425 5550
 Wire Wire Line
 	5725 1875 5875 1875
 Wire Wire Line
-	5875 1125 5875 2400
+	5875 1125 5875 2925
 Wire Wire Line
 	5875 2400 5725 2400
 Wire Wire Line
@@ -423,4 +423,36 @@ F 3 "" H 4675 1825 60  0001 C CNN
 	1    4700 1850
 	1    0    0    -1  
 $EndComp
+$Comp
+L MX-2U K_SP14
+U 1 1 598952D9
+P 5150 2900
+F 0 "K_SP14" H 5150 3025 60  0000 C CNN
+F 1 "MX-2U" H 5150 2950 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-ReversedStabilizers" H 5125 2875 60  0001 C CNN
+F 3 "" H 5125 2875 60  0001 C CNN
+	1    5150 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX-2.25U K_SP15
+U 1 1 598954D5
+P 5600 2900
+F 0 "K_SP15" H 5600 3025 60  0000 C CNN
+F 1 "MX-2.25U" H 5600 2950 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-ReversedStabilizer" H 5575 2875 60  0001 C CNN
+F 3 "" H 5575 2875 60  0001 C CNN
+	1    5600 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5625 3025
+Wire Wire Line
+	5775 2875 5925 2875
+Connection ~ 5925 2875
+Wire Wire Line
+	5575 3075 5825 3075
+Connection ~ 5825 3075
+Wire Wire Line
+	5875 2925 5725 2925
+Connection ~ 5875 2400
 $EndSCHEMATC
