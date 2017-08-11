@@ -251,6 +251,10 @@ Text HLabel 8275 2475 1    60   Input ~ 0
 leftshiftcol2
 Text HLabel 7650 2475 1    60   Input ~ 0
 leftshiftcol1
+Wire Wire Line
+	8000 5050 7375 5050
+Wire Wire Line
+	7375 5050 7375 5275
 $Comp
 L MX-2.25U-FLIPPED K_LS1
 U 1 1 5947D05F
@@ -262,8 +266,4 @@ F 3 "" H 7375 3000 60  0001 C CNN
 	1    7400 3025
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 5050 7375 5050
-Wire Wire Line
-	7375 5050 7375 5275
 $EndSCHEMATC

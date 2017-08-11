@@ -1172,4 +1172,14 @@ Text GLabel 4150 2450 2    60   Input ~ 0
 ROW5
 Text GLabel 4150 2350 2    60   Input ~ 0
 ROW4
+Text GLabel 4150 2250 2    60   Input ~ 0
+COL3
+Text GLabel 4150 2150 2    60   Input ~ 0
+COL4
+Text GLabel 4150 2050 2    60   Input ~ 0
+COL5
+Text GLabel 4150 1950 2    60   Input ~ 0
+COL6
+Text GLabel 4150 3450 2    60   Input ~ 0
+COL7
 $EndSCHEMATC
