@@ -3,4 +3,5 @@
   (lib (name WS2812B)(type KiCad)(uri ${KIPRJMOD}/WS2812B.pretty)(options "")(descr ""))
   (lib (name local__lib)(type KiCad)(uri ${KIPRJMOD}/local_lib)(options "")(descr ""))
   (lib (name Molex-0548190589)(type KiCad)(uri ${KIPRJMOD}/Molex-0548190589.pretty)(options "")(descr ""))
+  (lib (name Keyboard)(type KiCad)(uri C:\Users\Angus\Downloads\Keyboard.pretty-master)(options "")(descr ""))
 )
