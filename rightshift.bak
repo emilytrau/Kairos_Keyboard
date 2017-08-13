@@ -119,7 +119,7 @@ Connection ~ 5075 3000
 Wire Wire Line
 	5300 2425 5600 2425
 Wire Wire Line
-	5600 2425 5600 3575
+	5600 2100 5600 3575
 Wire Wire Line
 	5600 3000 5300 3000
 Connection ~ 5600 3000
@@ -368,4 +368,25 @@ F 3 "" H 4775 3375 60  0001 C CNN
 	1    4800 3400
 	1    0    0    -1  
 $EndComp
+$Comp
+L KEYSW K_RS10
+U 1 1 599058B9
+P 5400 2000
+F 0 "K_RS10" H 5350 2000 60  0000 C CNN
+F 1 "KEYSW" H 5400 1900 60  0001 C CNN
+F 2 "local__lib:MX_100" H 5400 2000 60  0000 C CNN
+F 3 "" H 5400 2000 60  0000 C CNN
+	1    5400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 2075 5100 2075
+Wire Wire Line
+	5100 2075 5100 2000
+Connection ~ 5575 2075
+Wire Wire Line
+	5600 2100 5700 2100
+Wire Wire Line
+	5700 2100 5700 2000
+Connection ~ 5600 2425
 $EndSCHEMATC
